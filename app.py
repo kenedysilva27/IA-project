@@ -12,7 +12,7 @@ load_dotenv()
 
 @st.cache_data(show_spinner=False)
 def load_documents():
-    df = pd.read_csv("C:/Users/55839/Desktop/IA/chat_dataframe.csv")
+    df = pd.read_csv("chat_dataframe.csv")
     loader = DataFrameLoader(df, page_content_column="descricao")
     docs = loader.load()
     for doc, (_, row) in zip(docs, df.iterrows()):
