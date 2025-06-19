@@ -1,0 +1,1001 @@
+ID_Paciente,Idade,Sexo,Diagnostico_Principal,Comorbidades,Duracao_Internacao_Dias,Qtd_Internacoes_Ult_Ano,Necessidade_Homecare,Medicacao_Pos_Alta,Readmissao_30_Dias,Plano_Saude,Score_Comorbidade_Charlson,Telemonitoramento,Resultado_Exames_Importantes,Procedimentos_Realizados
+1,43,Feminino,Cálculo Renal,"HIV/AIDS, Demência",17,5,False,Nenhuma,True,Unimed Nacional,8,True,Melhora,Nenhum
+2,56,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Hepática, Síndrome do Intestino Irritável",25,5,True,"Nenhuma, Salbutamol, Losartana",True,Unimed Pleno,1,False,Melhora,"Endoscopia, Colonoscopia"
+3,25,Masculino,Câncer de Próstata,"Síndrome do Intestino Irritável, Doença Renal Crônica",19,4,False,"Aspirina, Salbutamol",True,Unimed Nacional,7,False,Estável,"Angioplastia, Cateterismo Cardíaco"
+4,23,Feminino,Acidente Vascular Cerebral,Síndrome do Intestino Irritável,26,2,False,Fluoxetina,False,Unimed Nacional,3,False,Estável,Nenhum
+5,33,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,18,1,True,"Metformina, Aspirina",False,Unimed Total,6,True,Estável,Nenhum
+6,22,Masculino,Fratura de Fêmur,Nenhuma,27,4,True,Nenhuma,True,Unimed Total,2,True,Melhora,Angioplastia
+7,23,Masculino,Gastroenterite Aguda,"Demência, Obesidade",12,4,False,Nenhuma,False,Unimed Essencial,9,True,Sem Alteração Significativa,Nenhum
+8,48,Feminino,Fratura de Fêmur,Obesidade,17,3,True,"Paracetamol, Omeprazol, Sinvastatina",True,Unimed Nacional,5,False,Piora,"Cateterismo Cardíaco, Biopsia"
+9,26,Masculino,Asma,Fibromialgia,2,0,False,"Insulina, Omeprazol, Fluoxetina",False,Unimed Essencial,4,False,Sem Alteração Significativa,Cirurgia de Apendicectomia
+10,85,Masculino,Pneumonia,Nenhuma,9,5,False,"Sertralina, Omeprazol",False,Unimed Total,10,True,Estável,Endoscopia
+11,45,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,9,0,False,"Furosemida, Insulina",False,Unimed Pleno,8,False,Sem Alteração Significativa,Nenhum
+12,48,Masculino,Gastroenterite Aguda,Nenhuma,6,1,False,"Omeprazol, Sinvastatina, Insulina",False,Unimed Total,2,False,Sem Alteração Significativa,"Endoscopia, Colonoscopia"
+13,86,Feminino,Hipertensão Essencial,"Doença de Alzheimer, Fibromialgia",14,4,True,Nenhuma,True,Unimed Essencial,5,False,Melhora,"Biopsia, Angioplastia"
+14,62,Masculino,Asma,Nenhuma,10,0,False,Sertralina,False,Unimed Total,9,True,Sem Alteração Significativa,"Cirurgia de Catarata, Colonoscopia"
+15,41,Feminino,Depressão,"Obesidade, Doença Hepática, Doença de Alzheimer",10,3,False,"Fluoxetina, Sinvastatina, Insulina",False,Unimed Essencial,2,True,Piora,Nenhum
+16,31,Feminino,Câncer de Mama,Doença de Parkinson,23,1,False,"Omeprazol, Insulina, Nenhuma",False,Unimed Nacional,2,False,Sem Alteração Significativa,Colonoscopia
+17,41,Masculino,Hipertensão Essencial,Nenhuma,24,4,False,Omeprazol,True,Unimed Multi,2,False,Piora,Biopsia
+18,51,Masculino,Ansiedade,Nenhuma,2,4,False,Nenhuma,True,Unimed Total,2,True,Estável,Hemodiálise
+19,60,Feminino,Ansiedade,Nenhuma,15,2,False,Nenhuma,True,Unimed Pleno,6,False,Melhora,Cirurgia de Apendicectomia
+20,52,Masculino,Infecção do Trato Urinário,Doença de Alzheimer,1,5,False,Furosemida,False,Unimed Total,4,False,Estável,Nenhum
+21,21,Masculino,Câncer de Próstata,Doença de Alzheimer,24,4,False,"Nenhuma, Losartana",False,Unimed Multi,1,False,Melhora,Nenhum
+22,61,Feminino,Depressão,HIV/AIDS,12,0,False,Insulina,False,Unimed Pleno,0,False,Piora,"Angioplastia, Cirurgia de Apendicectomia"
+23,54,Feminino,Insuficiência Cardíaca Congestiva,"Demência, HIV/AIDS",26,4,False,"Paracetamol, Nenhuma",True,Unimed Nacional,4,False,Piora,Nenhum
+24,62,Feminino,Cálculo Renal,"Obesidade, Doença Renal Crônica",2,3,False,Nenhuma,False,Unimed Nacional,8,True,Piora,"Colonoscopia, Angioplastia"
+25,24,Masculino,Gastroenterite Aguda,Nenhuma,16,2,True,Nenhuma,False,Unimed Nacional,2,True,Sem Alteração Significativa,Nenhum
+26,30,Masculino,Insuficiência Cardíaca Congestiva,"Doença de Alzheimer, Doença Renal Crônica, HIV/AIDS",5,5,False,"Insulina, Furosemida",False,Unimed Multi,3,False,Estável,Nenhum
+27,26,Feminino,Acidente Vascular Cerebral,"Doença de Parkinson, Fibromialgia",11,0,False,Fluoxetina,True,Unimed Multi,4,False,Sem Alteração Significativa,Cirurgia de Apendicectomia
+28,47,Feminino,Diabetes Mellitus Tipo 2,Doença de Parkinson,8,0,False,Paracetamol,False,Unimed Nacional,7,False,Estável,Colonoscopia
+29,39,Masculino,Câncer de Mama,Nenhuma,5,0,False,"Paracetamol, Insulina, Salbutamol",False,Unimed Nacional,5,False,Melhora,Hemodiálise
+30,61,Feminino,Asma,Nenhuma,28,5,True,Aspirina,False,Unimed Total,2,True,Estável,Biopsia
+31,25,Feminino,Câncer de Mama,Síndrome do Intestino Irritável,22,2,False,Aspirina,False,Unimed Nacional,7,False,Sem Alteração Significativa,Colonoscopia
+32,25,Masculino,Apneia do Sono,Fibromialgia,10,3,False,"Aspirina, Sertralina",False,Unimed Total,7,True,Melhora,Endoscopia
+33,84,Masculino,Câncer de Próstata,Nenhuma,9,3,False,"Fluoxetina, Losartana, Paracetamol",False,Unimed Pleno,5,False,Melhora,"Hemodiálise, Cirurgia de Apendicectomia"
+34,70,Masculino,Depressão,"Demência, HIV/AIDS",20,0,False,Insulina,False,Unimed Nacional,6,True,Melhora,Nenhum
+35,61,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Fibromialgia,26,2,True,"Salbutamol, Fluoxetina",True,Unimed Multi,6,True,Estável,Fisioterapia Respiratória
+36,83,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,12,0,True,Nenhuma,False,Unimed Nacional,5,True,Melhora,Nenhum
+37,59,Masculino,Cálculo Renal,Nenhuma,19,2,True,"Nenhuma, Sertralina, Metformina",False,Unimed Nacional,0,True,Piora,Nenhum
+38,48,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,12,4,False,Furosemida,False,Unimed Essencial,3,False,Estável,Hemodiálise
+39,23,Feminino,Hipertensão Essencial,Fibromialgia,6,0,True,Nenhuma,False,Unimed Essencial,0,True,Melhora,Biopsia
+40,49,Masculino,Fratura de Fêmur,Demência,22,3,True,Sertralina,True,Unimed Multi,9,True,Piora,Nenhum
+41,62,Feminino,Infecção do Trato Urinário,"Doença de Alzheimer, Doença Renal Crônica",20,5,False,Sinvastatina,False,Unimed Total,0,False,Estável,Nenhum
+42,21,Masculino,Ansiedade,Doença Hepática,24,3,True,"Sinvastatina, Paracetamol, Omeprazol",False,Unimed Total,3,True,Piora,Nenhum
+43,41,Feminino,Ansiedade,Nenhuma,10,3,False,"Salbutamol, Sinvastatina",False,Unimed Total,4,False,Piora,Nenhum
+44,25,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Demência, Obesidade",17,3,True,"Aspirina, Fluoxetina",True,Unimed Multi,8,True,Estável,Nenhum
+45,87,Feminino,Gastroenterite Aguda,Doença de Alzheimer,18,0,False,"Sertralina, Sinvastatina",False,Unimed Pleno,1,False,Melhora,Nenhum
+46,82,Masculino,Infecção do Trato Urinário,Nenhuma,26,3,True,"Insulina, Furosemida, Fluoxetina",False,Unimed Total,8,True,Estável,Nenhum
+47,58,Feminino,Câncer de Próstata,HIV/AIDS,18,3,True,"Insulina, Paracetamol",True,Unimed Essencial,5,True,Piora,Nenhum
+48,28,Masculino,Doença Arterial Coronariana,"HIV/AIDS, Demência",3,5,False,Nenhuma,False,Unimed Multi,7,True,Estável,Nenhum
+49,50,Feminino,Insuficiência Cardíaca Congestiva,"Obesidade, Doença de Alzheimer",29,1,False,"Insulina, Paracetamol, Salbutamol",False,Unimed Essencial,5,False,Piora,Nenhum
+50,33,Feminino,Acidente Vascular Cerebral,Nenhuma,5,4,True,"Insulina, Salbutamol",True,Unimed Pleno,5,True,Piora,Nenhum
+51,23,Masculino,Cálculo Renal,Nenhuma,11,2,False,"Losartana, Fluoxetina",True,Unimed Total,8,True,Piora,Nenhum
+52,53,Masculino,Doença Arterial Coronariana,Nenhuma,10,4,False,"Nenhuma, Losartana",False,Unimed Pleno,8,True,Sem Alteração Significativa,Nenhum
+53,62,Masculino,Pneumonia,Nenhuma,19,1,True,Insulina,False,Unimed Multi,3,False,Melhora,Hemodiálise
+54,30,Masculino,Artrite Reumatoide,Nenhuma,30,3,True,Nenhuma,True,Unimed Nacional,9,True,Sem Alteração Significativa,Nenhum
+55,24,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,6,3,False,"Furosemida, Insulina",False,Unimed Nacional,10,True,Piora,Nenhum
+56,50,Feminino,Depressão,Nenhuma,28,3,True,Nenhuma,False,Unimed Essencial,4,True,Estável,"Cateterismo Cardíaco, Biopsia"
+57,60,Feminino,Hipertensão Essencial,Nenhuma,14,3,False,"Losartana, Paracetamol, Sinvastatina",False,Unimed Pleno,5,False,Piora,Nenhum
+58,89,Feminino,Diabetes Mellitus Tipo 2,Síndrome do Intestino Irritável,1,4,True,Aspirina,True,Unimed Essencial,3,True,Estável,Nenhum
+59,65,Feminino,Infecção do Trato Urinário,Nenhuma,29,3,True,"Insulina, Salbutamol, Sertralina",False,Unimed Pleno,8,True,Sem Alteração Significativa,Cirurgia de Catarata
+60,86,Feminino,Câncer de Mama,Doença Hepática,25,5,True,Nenhuma,False,Unimed Pleno,6,True,Piora,Cirurgia de Catarata
+61,39,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,30,5,True,Paracetamol,False,Unimed Total,0,False,Piora,Nenhum
+62,41,Feminino,Fratura de Fêmur,Nenhuma,15,0,False,Furosemida,False,Unimed Pleno,10,True,Piora,Endoscopia
+63,53,Feminino,Pneumonia,Fibromialgia,6,1,False,"Metformina, Insulina, Losartana",False,Unimed Multi,9,True,Estável,Nenhum
+64,43,Masculino,Pneumonia,"Síndrome do Intestino Irritável, Doença de Parkinson, Doença Renal Crônica",17,2,True,Furosemida,False,Unimed Multi,9,True,Sem Alteração Significativa,Colonoscopia
+65,53,Masculino,Diabetes Mellitus Tipo 2,"HIV/AIDS, Doença de Alzheimer, Doença Renal Crônica",10,0,False,"Furosemida, Fluoxetina",True,Unimed Essencial,6,True,Piora,Nenhum
+66,26,Masculino,Cálculo Renal,"Doença Renal Crônica, Obesidade, Demência",25,2,False,Nenhuma,False,Unimed Total,4,False,Melhora,Fisioterapia Respiratória
+67,78,Feminino,Ansiedade,Nenhuma,8,4,False,"Nenhuma, Insulina, Sinvastatina",True,Unimed Essencial,5,True,Melhora,"Colonoscopia, Endoscopia"
+68,61,Masculino,Asma,Obesidade,5,0,False,"Metformina, Omeprazol, Aspirina",True,Unimed Total,5,False,Piora,Angioplastia
+69,22,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,4,4,False,"Fluoxetina, Nenhuma",False,Unimed Pleno,3,True,Sem Alteração Significativa,"Fisioterapia Respiratória, Hemodiálise"
+70,40,Masculino,Câncer de Próstata,Nenhuma,5,5,False,Sertralina,True,Unimed Pleno,6,True,Estável,Angioplastia
+71,83,Masculino,Câncer de Próstata,Nenhuma,26,3,True,Paracetamol,False,Unimed Total,10,False,Melhora,Fisioterapia Respiratória
+72,77,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,9,5,False,Paracetamol,False,Unimed Multi,6,True,Melhora,Angioplastia
+73,28,Feminino,Cálculo Renal,HIV/AIDS,21,0,False,"Paracetamol, Metformina",False,Unimed Essencial,8,True,Melhora,Nenhum
+74,84,Masculino,Câncer de Mama,Nenhuma,3,3,True,Nenhuma,False,Unimed Pleno,0,True,Sem Alteração Significativa,Cirurgia de Apendicectomia
+75,85,Masculino,Diabetes Mellitus Tipo 2,"Fibromialgia, Doença Hepática",15,5,True,"Omeprazol, Losartana",False,Unimed Total,3,False,Piora,"Biopsia, Cirurgia de Catarata"
+76,55,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,12,4,False,Salbutamol,True,Unimed Essencial,4,False,Melhora,Cirurgia de Catarata
+77,60,Masculino,Câncer de Mama,Nenhuma,28,3,False,"Furosemida, Sinvastatina, Metformina",False,Unimed Multi,2,False,Estável,Cirurgia de Apendicectomia
+78,75,Masculino,Hipertensão Essencial,Doença de Parkinson,13,5,True,"Omeprazol, Aspirina, Nenhuma",True,Unimed Essencial,9,False,Estável,Nenhum
+79,78,Masculino,Apneia do Sono,Nenhuma,9,4,True,"Metformina, Paracetamol",False,Unimed Total,9,False,Melhora,Nenhum
+80,54,Masculino,Artrite Reumatoide,"Síndrome do Intestino Irritável, Fibromialgia",6,0,False,"Furosemida, Losartana",True,Unimed Essencial,3,True,Sem Alteração Significativa,Fisioterapia Respiratória
+81,55,Masculino,Depressão,"Fibromialgia, Síndrome do Intestino Irritável",7,5,False,Insulina,False,Unimed Pleno,10,True,Sem Alteração Significativa,"Cateterismo Cardíaco, Colonoscopia"
+82,19,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,3,3,False,Nenhuma,False,Unimed Total,10,True,Sem Alteração Significativa,"Endoscopia, Cirurgia de Apendicectomia"
+83,84,Masculino,Depressão,Obesidade,19,2,True,"Losartana, Aspirina",False,Unimed Pleno,5,True,Sem Alteração Significativa,Angioplastia
+84,54,Masculino,Ansiedade,Nenhuma,25,2,True,"Sinvastatina, Omeprazol",False,Unimed Total,5,False,Estável,Nenhum
+85,57,Feminino,Ansiedade,Nenhuma,19,5,True,Nenhuma,False,Unimed Multi,10,True,Sem Alteração Significativa,"Colonoscopia, Fisioterapia Respiratória"
+86,66,Masculino,Acidente Vascular Cerebral,Nenhuma,22,1,False,Nenhuma,False,Unimed Pleno,9,True,Estável,Nenhum
+87,35,Feminino,Artrite Reumatoide,"Obesidade, Demência",6,4,False,"Fluoxetina, Metformina",True,Unimed Multi,7,True,Melhora,Nenhum
+88,56,Feminino,Hipertensão Essencial,Doença Renal Crônica,22,4,False,"Paracetamol, Insulina",True,Unimed Nacional,9,True,Melhora,Nenhum
+89,59,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,24,4,True,Nenhuma,False,Unimed Total,6,True,Estável,Colonoscopia
+90,26,Feminino,Acidente Vascular Cerebral,Nenhuma,5,5,False,"Furosemida, Paracetamol, Nenhuma",False,Unimed Pleno,5,True,Estável,"Cateterismo Cardíaco, Cirurgia de Catarata"
+91,78,Masculino,Fratura de Fêmur,Nenhuma,1,3,True,Sinvastatina,True,Unimed Nacional,2,True,Sem Alteração Significativa,"Colonoscopia, Angioplastia"
+92,79,Feminino,Apneia do Sono,Nenhuma,27,1,False,Nenhuma,False,Unimed Nacional,6,True,Sem Alteração Significativa,Angioplastia
+93,31,Masculino,Hipertensão Essencial,"Fibromialgia, Doença de Parkinson, HIV/AIDS",27,5,True,"Losartana, Aspirina",False,Unimed Nacional,5,False,Estável,Nenhum
+94,24,Feminino,Insuficiência Cardíaca Congestiva,Demência,5,3,False,Aspirina,True,Unimed Essencial,1,False,Estável,"Colonoscopia, Cirurgia de Apendicectomia"
+95,19,Masculino,Hipertensão Essencial,Demência,1,0,False,"Insulina, Nenhuma, Omeprazol",False,Unimed Total,10,False,Piora,Nenhum
+96,42,Feminino,Insuficiência Cardíaca Congestiva,"Obesidade, Doença Hepática",20,4,True,Nenhuma,False,Unimed Pleno,1,True,Melhora,Nenhum
+97,29,Masculino,Apneia do Sono,"Síndrome do Intestino Irritável, Doença de Alzheimer",15,0,True,"Nenhuma, Sinvastatina, Fluoxetina",False,Unimed Pleno,4,True,Sem Alteração Significativa,Nenhum
+98,88,Masculino,Fratura de Fêmur,Nenhuma,29,2,True,Metformina,True,Unimed Essencial,5,True,Melhora,Nenhum
+99,24,Feminino,Infecção do Trato Urinário,"HIV/AIDS, Doença de Parkinson, Obesidade",7,0,True,Sertralina,False,Unimed Multi,5,True,Melhora,Nenhum
+100,67,Feminino,Apneia do Sono,Nenhuma,6,3,True,Losartana,True,Unimed Total,8,False,Estável,Nenhum
+101,19,Feminino,Câncer de Mama,"Síndrome do Intestino Irritável, Fibromialgia",15,4,False,"Salbutamol, Sertralina, Insulina",False,Unimed Nacional,5,True,Sem Alteração Significativa,Nenhum
+102,23,Feminino,Câncer de Próstata,Nenhuma,26,5,True,Insulina,True,Unimed Nacional,3,False,Melhora,"Biopsia, Cirurgia de Apendicectomia"
+103,79,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,21,3,True,"Sinvastatina, Salbutamol, Aspirina",True,Unimed Total,10,False,Melhora,Nenhum
+104,23,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,13,5,False,"Omeprazol, Furosemida",False,Unimed Nacional,6,False,Estável,Nenhum
+105,38,Masculino,Hipertensão Essencial,Nenhuma,14,4,False,Fluoxetina,False,Unimed Essencial,0,True,Piora,Nenhum
+106,26,Masculino,Câncer de Mama,Nenhuma,6,1,False,"Metformina, Paracetamol",False,Unimed Essencial,3,True,Sem Alteração Significativa,Cirurgia de Apendicectomia
+107,26,Masculino,Câncer de Mama,Nenhuma,28,1,False,"Paracetamol, Nenhuma, Omeprazol",False,Unimed Multi,10,True,Melhora,"Hemodiálise, Cirurgia de Apendicectomia"
+108,24,Masculino,Depressão,"Fibromialgia, Doença Hepática",23,5,True,Paracetamol,True,Unimed Nacional,0,True,Estável,Cirurgia de Apendicectomia
+109,80,Masculino,Depressão,Síndrome do Intestino Irritável,13,5,True,Nenhuma,False,Unimed Essencial,1,True,Piora,"Angioplastia, Colonoscopia"
+110,89,Feminino,Cálculo Renal,Nenhuma,15,3,True,Losartana,False,Unimed Pleno,10,True,Piora,Cateterismo Cardíaco
+111,18,Feminino,Doença Arterial Coronariana,"Doença de Parkinson, Doença Hepática",16,2,True,Losartana,False,Unimed Multi,7,False,Piora,Nenhum
+112,42,Feminino,Asma,HIV/AIDS,27,1,False,"Paracetamol, Losartana",False,Unimed Multi,1,False,Sem Alteração Significativa,Nenhum
+113,72,Masculino,Acidente Vascular Cerebral,Nenhuma,13,0,False,"Sinvastatina, Paracetamol",False,Unimed Nacional,0,False,Piora,Hemodiálise
+114,67,Masculino,Pneumonia,Nenhuma,1,3,True,"Paracetamol, Sertralina",True,Unimed Pleno,10,False,Sem Alteração Significativa,Biopsia
+115,77,Masculino,Pneumonia,Nenhuma,27,5,False,"Metformina, Losartana",True,Unimed Total,6,True,Piora,Nenhum
+116,23,Feminino,Câncer de Próstata,Doença de Alzheimer,19,5,False,"Salbutamol, Losartana",False,Unimed Multi,6,False,Piora,"Cirurgia de Catarata, Angioplastia"
+117,60,Feminino,Fratura de Fêmur,Nenhuma,22,2,True,Nenhuma,False,Unimed Multi,0,False,Estável,"Cirurgia de Apendicectomia, Endoscopia"
+118,61,Feminino,Câncer de Mama,Doença Hepática,14,3,False,"Salbutamol, Sinvastatina",False,Unimed Nacional,9,False,Melhora,Nenhum
+119,21,Masculino,Diabetes Mellitus Tipo 2,"Doença de Alzheimer, Síndrome do Intestino Irritável",3,4,False,"Nenhuma, Fluoxetina",False,Unimed Essencial,9,True,Melhora,Cirurgia de Apendicectomia
+120,32,Feminino,Apneia do Sono,Doença Hepática,10,0,False,"Sertralina, Paracetamol, Sinvastatina",True,Unimed Pleno,5,False,Sem Alteração Significativa,Nenhum
+121,60,Masculino,Hipertensão Essencial,Síndrome do Intestino Irritável,7,5,False,Nenhuma,False,Unimed Pleno,9,False,Sem Alteração Significativa,"Angioplastia, Colonoscopia"
+122,22,Masculino,Gastroenterite Aguda,Nenhuma,19,3,True,"Metformina, Fluoxetina, Sinvastatina",True,Unimed Total,3,True,Estável,Endoscopia
+123,38,Feminino,Infecção do Trato Urinário,Nenhuma,17,5,True,Insulina,True,Unimed Multi,0,True,Melhora,Nenhum
+124,77,Masculino,Gastroenterite Aguda,Nenhuma,11,5,True,Nenhuma,True,Unimed Pleno,7,True,Sem Alteração Significativa,Nenhum
+125,41,Masculino,Câncer de Mama,"Doença Renal Crônica, Doença de Alzheimer",2,4,False,Nenhuma,False,Unimed Pleno,1,False,Estável,Nenhum
+126,42,Masculino,Câncer de Mama,Doença de Parkinson,11,2,False,Nenhuma,False,Unimed Essencial,0,False,Melhora,Nenhum
+127,39,Masculino,Hipertensão Essencial,"Doença de Alzheimer, Fibromialgia",6,1,False,Nenhuma,True,Unimed Essencial,10,True,Piora,Nenhum
+128,37,Masculino,Fratura de Fêmur,Nenhuma,22,1,False,"Metformina, Sinvastatina",False,Unimed Multi,6,True,Sem Alteração Significativa,Nenhum
+129,46,Masculino,Cálculo Renal,"Doença de Parkinson, Doença Hepática",17,5,True,Furosemida,False,Unimed Total,2,False,Piora,"Endoscopia, Cirurgia de Apendicectomia"
+130,50,Feminino,Fratura de Fêmur,"HIV/AIDS, Doença Hepática, Doença de Parkinson",7,5,False,Nenhuma,False,Unimed Essencial,1,True,Melhora,Nenhum
+131,61,Masculino,Doença Arterial Coronariana,Nenhuma,24,1,False,Sertralina,False,Unimed Multi,0,True,Piora,Nenhum
+132,50,Feminino,Pneumonia,Nenhuma,28,1,True,"Sertralina, Insulina, Losartana",False,Unimed Total,2,True,Estável,Nenhum
+133,51,Masculino,Gastroenterite Aguda,Nenhuma,4,1,False,"Metformina, Insulina, Salbutamol",True,Unimed Total,7,False,Estável,Nenhum
+134,67,Masculino,Câncer de Próstata,"Doença de Alzheimer, Doença de Parkinson",25,4,False,"Aspirina, Losartana",False,Unimed Pleno,8,False,Piora,Nenhum
+135,89,Masculino,Insuficiência Cardíaca Congestiva,Doença de Parkinson,28,5,True,"Sinvastatina, Aspirina",True,Unimed Essencial,5,True,Melhora,Fisioterapia Respiratória
+136,26,Masculino,Depressão,Doença de Alzheimer,11,0,False,Aspirina,False,Unimed Nacional,5,False,Melhora,Nenhum
+137,31,Masculino,Insuficiência Cardíaca Congestiva,Demência,11,4,False,"Losartana, Paracetamol",False,Unimed Total,4,False,Estável,Angioplastia
+138,32,Masculino,Ansiedade,Fibromialgia,21,4,True,"Sertralina, Furosemida",True,Unimed Multi,1,True,Estável,Nenhum
+139,81,Feminino,Artrite Reumatoide,Demência,1,1,False,Nenhuma,False,Unimed Pleno,1,True,Estável,Nenhum
+140,84,Feminino,Câncer de Próstata,Nenhuma,30,4,True,"Sinvastatina, Furosemida",True,Unimed Essencial,8,False,Estável,Biopsia
+141,65,Masculino,Gastroenterite Aguda,Nenhuma,7,2,False,"Losartana, Aspirina, Sertralina",False,Unimed Pleno,9,False,Melhora,"Colonoscopia, Biopsia"
+142,34,Masculino,Artrite Reumatoide,"Doença Renal Crônica, Fibromialgia, HIV/AIDS",23,5,True,"Sinvastatina, Paracetamol, Metformina",False,Unimed Pleno,8,True,Estável,Nenhum
+143,53,Feminino,Câncer de Mama,"Síndrome do Intestino Irritável, Doença de Alzheimer, Obesidade",9,5,False,Nenhuma,True,Unimed Nacional,4,False,Sem Alteração Significativa,Nenhum
+144,59,Feminino,Asma,Nenhuma,15,4,False,"Insulina, Aspirina",False,Unimed Pleno,8,False,Sem Alteração Significativa,Angioplastia
+145,82,Masculino,Câncer de Mama,"Demência, Doença Hepática",28,3,True,Paracetamol,False,Unimed Nacional,10,False,Sem Alteração Significativa,Cirurgia de Apendicectomia
+146,83,Masculino,Artrite Reumatoide,Nenhuma,12,2,True,"Sinvastatina, Metformina",True,Unimed Pleno,2,False,Sem Alteração Significativa,Angioplastia
+147,90,Masculino,Insuficiência Cardíaca Congestiva,"Doença Hepática, Doença de Alzheimer",16,3,True,"Omeprazol, Sinvastatina",False,Unimed Pleno,0,True,Estável,Nenhum
+148,83,Masculino,Câncer de Próstata,Nenhuma,12,0,False,Fluoxetina,False,Unimed Essencial,4,False,Sem Alteração Significativa,"Cirurgia de Catarata, Hemodiálise"
+149,79,Masculino,Depressão,Nenhuma,2,5,True,Nenhuma,False,Unimed Essencial,3,True,Estável,Nenhum
+150,35,Feminino,Câncer de Mama,"Doença Renal Crônica, Doença Hepática",16,1,False,"Metformina, Aspirina, Sertralina",False,Unimed Multi,9,True,Piora,Hemodiálise
+151,46,Masculino,Fratura de Fêmur,"Fibromialgia, Síndrome do Intestino Irritável, HIV/AIDS",1,4,False,"Losartana, Metformina",False,Unimed Total,0,False,Melhora,Nenhum
+152,87,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,12,4,False,"Paracetamol, Losartana",False,Unimed Multi,9,True,Estável,"Cateterismo Cardíaco, Angioplastia"
+153,88,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Parkinson, Fibromialgia, HIV/AIDS",18,3,False,Metformina,True,Unimed Multi,8,True,Sem Alteração Significativa,Nenhum
+154,70,Feminino,Câncer de Próstata,Doença de Alzheimer,14,0,False,"Sertralina, Salbutamol",False,Unimed Multi,2,False,Sem Alteração Significativa,Colonoscopia
+155,33,Feminino,Apneia do Sono,"Fibromialgia, Doença Hepática, Doença de Parkinson",13,4,False,Nenhuma,False,Unimed Total,6,True,Sem Alteração Significativa,Endoscopia
+156,76,Feminino,Fratura de Fêmur,"HIV/AIDS, Obesidade",19,3,False,"Nenhuma, Furosemida",False,Unimed Total,10,True,Estável,Biopsia
+157,82,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,14,5,True,"Nenhuma, Furosemida, Salbutamol",True,Unimed Multi,2,True,Melhora,Nenhum
+158,53,Feminino,Asma,Demência,28,4,True,Nenhuma,False,Unimed Pleno,3,True,Sem Alteração Significativa,Nenhum
+159,23,Feminino,Artrite Reumatoide,Nenhuma,7,3,False,Nenhuma,False,Unimed Nacional,4,False,Piora,Nenhum
+160,48,Feminino,Ansiedade,"HIV/AIDS, Demência",28,1,False,Metformina,False,Unimed Essencial,4,False,Sem Alteração Significativa,Hemodiálise
+161,53,Feminino,Doença Arterial Coronariana,"Obesidade, Fibromialgia",5,1,False,"Furosemida, Insulina, Fluoxetina",False,Unimed Nacional,8,True,Estável,Cateterismo Cardíaco
+162,18,Masculino,Câncer de Mama,Síndrome do Intestino Irritável,16,5,True,"Fluoxetina, Sinvastatina",False,Unimed Essencial,7,False,Piora,Cirurgia de Catarata
+163,80,Feminino,Câncer de Mama,Nenhuma,10,2,False,"Fluoxetina, Insulina, Aspirina",False,Unimed Essencial,2,False,Piora,Nenhum
+164,44,Feminino,Ansiedade,"Síndrome do Intestino Irritável, Doença de Parkinson",1,5,False,"Aspirina, Metformina",True,Unimed Multi,6,True,Piora,Cirurgia de Apendicectomia
+165,58,Masculino,Câncer de Mama,"HIV/AIDS, Doença Renal Crônica",27,0,True,"Metformina, Sertralina, Omeprazol",False,Unimed Essencial,6,False,Sem Alteração Significativa,Nenhum
+166,34,Masculino,Hipertensão Essencial,Nenhuma,18,0,True,Salbutamol,False,Unimed Nacional,4,True,Piora,Angioplastia
+167,28,Feminino,Apneia do Sono,Nenhuma,12,1,False,Nenhuma,False,Unimed Total,9,True,Estável,Nenhum
+168,62,Masculino,Insuficiência Cardíaca Congestiva,Demência,4,2,False,"Nenhuma, Metformina, Omeprazol",True,Unimed Total,10,True,Estável,"Biopsia, Hemodiálise"
+169,41,Feminino,Hipertensão Essencial,Doença Hepática,29,5,False,Losartana,False,Unimed Nacional,5,False,Piora,Endoscopia
+170,86,Masculino,Diabetes Mellitus Tipo 2,"Doença de Alzheimer, Fibromialgia",17,4,False,"Paracetamol, Omeprazol",False,Unimed Nacional,8,True,Estável,Nenhum
+171,42,Masculino,Câncer de Próstata,Doença de Parkinson,21,0,False,"Nenhuma, Insulina, Sinvastatina",False,Unimed Multi,8,False,Sem Alteração Significativa,Nenhum
+172,90,Feminino,Fratura de Fêmur,Fibromialgia,13,0,True,"Omeprazol, Salbutamol, Nenhuma",False,Unimed Nacional,5,True,Piora,Nenhum
+173,90,Masculino,Doença Arterial Coronariana,Nenhuma,29,4,True,"Insulina, Omeprazol, Aspirina",False,Unimed Essencial,0,True,Melhora,Nenhum
+174,33,Feminino,Ansiedade,Obesidade,20,3,False,"Fluoxetina, Nenhuma, Insulina",True,Unimed Essencial,3,False,Sem Alteração Significativa,Nenhum
+175,76,Masculino,Artrite Reumatoide,Doença Renal Crônica,16,3,True,"Aspirina, Nenhuma",False,Unimed Pleno,5,True,Estável,Nenhum
+176,40,Feminino,Câncer de Próstata,Nenhuma,25,4,True,Metformina,True,Unimed Nacional,7,True,Estável,Nenhum
+177,28,Masculino,Apneia do Sono,Nenhuma,22,3,True,"Salbutamol, Fluoxetina, Sertralina",False,Unimed Nacional,1,True,Piora,Nenhum
+178,33,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,14,2,False,"Sertralina, Salbutamol",True,Unimed Multi,10,True,Piora,Biopsia
+179,38,Feminino,Ansiedade,Nenhuma,30,3,False,"Aspirina, Insulina",False,Unimed Pleno,10,False,Piora,Nenhum
+180,33,Feminino,Diabetes Mellitus Tipo 2,Doença de Alzheimer,7,5,False,"Fluoxetina, Losartana",False,Unimed Multi,7,True,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Cateterismo Cardíaco"
+181,35,Feminino,Apneia do Sono,"Síndrome do Intestino Irritável, Doença Hepática, Doença de Parkinson",28,2,False,"Paracetamol, Fluoxetina",False,Unimed Pleno,2,False,Piora,Endoscopia
+182,20,Feminino,Ansiedade,HIV/AIDS,26,1,False,"Sertralina, Sinvastatina, Aspirina",False,Unimed Multi,10,True,Melhora,Nenhum
+183,64,Masculino,Infecção do Trato Urinário,Nenhuma,9,3,False,"Losartana, Salbutamol, Aspirina",True,Unimed Multi,8,True,Estável,Nenhum
+184,20,Feminino,Ansiedade,Nenhuma,15,0,False,"Fluoxetina, Sinvastatina",False,Unimed Nacional,5,False,Piora,Fisioterapia Respiratória
+185,47,Masculino,Depressão,Doença de Parkinson,13,2,True,Omeprazol,True,Unimed Nacional,6,False,Piora,Nenhum
+186,25,Masculino,Hipertensão Essencial,"HIV/AIDS, Demência",29,4,True,Nenhuma,True,Unimed Essencial,8,True,Melhora,"Endoscopia, Angioplastia"
+187,22,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,26,4,False,"Nenhuma, Metformina",False,Unimed Pleno,7,False,Piora,Nenhum
+188,88,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Síndrome do Intestino Irritável, Doença de Alzheimer",18,0,True,"Insulina, Aspirina, Paracetamol",True,Unimed Essencial,0,True,Melhora,Nenhum
+189,65,Masculino,Apneia do Sono,Nenhuma,16,2,False,"Aspirina, Salbutamol, Furosemida",False,Unimed Total,3,False,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Colonoscopia"
+190,82,Feminino,Asma,"Síndrome do Intestino Irritável, Demência",27,4,True,"Aspirina, Salbutamol",False,Unimed Pleno,3,True,Piora,Nenhum
+191,28,Feminino,Acidente Vascular Cerebral,Nenhuma,19,5,False,Nenhuma,False,Unimed Essencial,8,True,Melhora,Biopsia
+192,86,Masculino,Infecção do Trato Urinário,Nenhuma,26,0,False,"Fluoxetina, Salbutamol, Losartana",False,Unimed Multi,4,False,Melhora,Nenhum
+193,37,Feminino,Depressão,Nenhuma,2,3,False,"Furosemida, Metformina, Sinvastatina",False,Unimed Total,9,True,Estável,Colonoscopia
+194,20,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Hepática, Obesidade",15,4,False,Insulina,False,Unimed Nacional,9,True,Piora,Nenhum
+195,57,Masculino,Doença Arterial Coronariana,Nenhuma,26,0,False,"Paracetamol, Insulina, Losartana",False,Unimed Essencial,5,False,Estável,"Fisioterapia Respiratória, Colonoscopia"
+196,43,Feminino,Fratura de Fêmur,"Doença de Alzheimer, Demência",8,2,False,"Sinvastatina, Losartana",False,Unimed Multi,4,False,Sem Alteração Significativa,Nenhum
+197,76,Feminino,Gastroenterite Aguda,Doença de Alzheimer,2,2,True,"Sertralina, Paracetamol",False,Unimed Pleno,1,True,Piora,Nenhum
+198,50,Feminino,Asma,Nenhuma,30,1,False,Nenhuma,False,Unimed Pleno,9,False,Melhora,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+199,33,Masculino,Hipertensão Essencial,Demência,21,5,True,Nenhuma,False,Unimed Essencial,0,True,Sem Alteração Significativa,Nenhum
+200,74,Masculino,Infecção do Trato Urinário,Doença de Alzheimer,25,1,True,Salbutamol,False,Unimed Pleno,2,False,Melhora,Nenhum
+201,27,Feminino,Gastroenterite Aguda,Nenhuma,26,1,False,"Sinvastatina, Salbutamol",False,Unimed Total,7,True,Estável,Nenhum
+202,88,Feminino,Artrite Reumatoide,Nenhuma,28,1,False,"Omeprazol, Fluoxetina, Metformina",False,Unimed Total,1,False,Estável,Nenhum
+203,64,Masculino,Asma,Demência,7,2,True,Nenhuma,False,Unimed Essencial,7,True,Sem Alteração Significativa,Biopsia
+204,52,Masculino,Ansiedade,Nenhuma,17,2,True,Nenhuma,True,Unimed Nacional,7,True,Estável,Nenhum
+205,34,Masculino,Depressão,"HIV/AIDS, Obesidade, Demência",20,4,False,Nenhuma,True,Unimed Pleno,1,False,Sem Alteração Significativa,Nenhum
+206,43,Feminino,Gastroenterite Aguda,Fibromialgia,11,4,True,"Insulina, Aspirina",True,Unimed Total,3,True,Sem Alteração Significativa,Nenhum
+207,33,Feminino,Artrite Reumatoide,Nenhuma,23,4,True,Insulina,False,Unimed Total,8,True,Piora,Colonoscopia
+208,42,Masculino,Insuficiência Cardíaca Congestiva,"Demência, Obesidade",10,2,False,"Sertralina, Furosemida",False,Unimed Essencial,2,True,Piora,Nenhum
+209,78,Feminino,Cálculo Renal,Nenhuma,29,3,True,"Aspirina, Paracetamol",False,Unimed Pleno,2,True,Sem Alteração Significativa,Angioplastia
+210,34,Feminino,Doença Arterial Coronariana,"Doença Renal Crônica, Síndrome do Intestino Irritável",3,1,True,Omeprazol,False,Unimed Pleno,10,True,Sem Alteração Significativa,"Biopsia, Angioplastia"
+211,52,Masculino,Infecção do Trato Urinário,Doença de Alzheimer,21,3,True,Insulina,True,Unimed Total,10,True,Piora,Cateterismo Cardíaco
+212,63,Feminino,Pneumonia,"Doença Hepática, HIV/AIDS",6,2,False,"Salbutamol, Paracetamol",True,Unimed Total,6,False,Melhora,Nenhum
+213,52,Feminino,Asma,Nenhuma,25,5,False,"Fluoxetina, Salbutamol, Insulina",False,Unimed Pleno,5,False,Sem Alteração Significativa,Fisioterapia Respiratória
+214,45,Feminino,Artrite Reumatoide,"Doença de Alzheimer, HIV/AIDS",19,5,True,"Salbutamol, Fluoxetina, Omeprazol",True,Unimed Nacional,3,False,Sem Alteração Significativa,Endoscopia
+215,53,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,16,5,False,"Sertralina, Sinvastatina",False,Unimed Nacional,1,False,Melhora,Cirurgia de Catarata
+216,49,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,24,2,False,"Furosemida, Fluoxetina",False,Unimed Total,6,True,Estável,Nenhum
+217,81,Feminino,Asma,Doença Hepática,14,4,True,"Metformina, Salbutamol, Omeprazol",False,Unimed Multi,10,True,Melhora,Nenhum
+218,88,Masculino,Acidente Vascular Cerebral,Nenhuma,24,1,False,"Paracetamol, Insulina",False,Unimed Nacional,6,False,Estável,"Hemodiálise, Fisioterapia Respiratória"
+219,29,Feminino,Doença Arterial Coronariana,Nenhuma,10,0,False,Nenhuma,False,Unimed Nacional,0,False,Melhora,Cirurgia de Catarata
+220,28,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Alzheimer, Síndrome do Intestino Irritável, HIV/AIDS",6,3,False,"Insulina, Sinvastatina",False,Unimed Total,9,False,Sem Alteração Significativa,"Fisioterapia Respiratória, Cirurgia de Apendicectomia"
+221,79,Feminino,Câncer de Mama,Nenhuma,11,4,False,Paracetamol,True,Unimed Essencial,10,True,Piora,Colonoscopia
+222,22,Feminino,Asma,Nenhuma,7,5,False,Furosemida,True,Unimed Essencial,1,False,Piora,Endoscopia
+223,52,Masculino,Doença Arterial Coronariana,Fibromialgia,20,5,True,"Salbutamol, Paracetamol, Metformina",False,Unimed Total,6,True,Piora,Nenhum
+224,81,Masculino,Acidente Vascular Cerebral,Nenhuma,13,2,True,"Metformina, Insulina, Fluoxetina",False,Unimed Multi,4,True,Sem Alteração Significativa,"Cirurgia de Catarata, Biopsia"
+225,72,Feminino,Pneumonia,Doença Hepática,17,2,False,"Paracetamol, Salbutamol, Sertralina",False,Unimed Total,0,False,Melhora,"Biopsia, Fisioterapia Respiratória"
+226,89,Feminino,Doença Arterial Coronariana,Nenhuma,18,5,False,"Sertralina, Salbutamol",True,Unimed Multi,2,False,Melhora,Angioplastia
+227,81,Feminino,Fratura de Fêmur,Nenhuma,22,2,True,"Nenhuma, Paracetamol",False,Unimed Total,5,True,Estável,Cirurgia de Apendicectomia
+228,90,Masculino,Cálculo Renal,Nenhuma,4,5,False,Nenhuma,False,Unimed Nacional,4,False,Estável,"Cirurgia de Catarata, Cirurgia de Apendicectomia"
+229,19,Masculino,Ansiedade,Demência,23,2,True,"Salbutamol, Paracetamol, Sinvastatina",False,Unimed Multi,3,True,Piora,Nenhum
+230,54,Feminino,Asma,Doença de Parkinson,1,4,False,Nenhuma,False,Unimed Nacional,9,True,Melhora,Cirurgia de Apendicectomia
+231,41,Feminino,Gastroenterite Aguda,"Doença de Parkinson, Fibromialgia, Síndrome do Intestino Irritável",18,1,True,Nenhuma,False,Unimed Pleno,9,False,Estável,Cirurgia de Apendicectomia
+232,40,Masculino,Apneia do Sono,Nenhuma,12,4,False,Aspirina,True,Unimed Essencial,0,False,Piora,Nenhum
+233,84,Feminino,Acidente Vascular Cerebral,"Doença de Parkinson, HIV/AIDS",27,5,False,Aspirina,False,Unimed Multi,0,False,Sem Alteração Significativa,Nenhum
+234,81,Feminino,Asma,Nenhuma,28,1,True,"Losartana, Paracetamol",False,Unimed Total,9,True,Piora,Nenhum
+235,23,Feminino,Gastroenterite Aguda,Nenhuma,3,3,False,"Insulina, Losartana",True,Unimed Essencial,5,False,Sem Alteração Significativa,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+236,57,Feminino,Diabetes Mellitus Tipo 2,"Doença de Alzheimer, Doença Renal Crônica",14,0,False,Nenhuma,False,Unimed Total,6,False,Estável,Nenhum
+237,71,Feminino,Asma,"Doença Renal Crônica, Fibromialgia",14,0,True,Losartana,True,Unimed Nacional,8,True,Estável,Nenhum
+238,46,Feminino,Artrite Reumatoide,Síndrome do Intestino Irritável,20,0,True,Salbutamol,False,Unimed Multi,7,True,Piora,Nenhum
+239,71,Feminino,Hipertensão Essencial,"Síndrome do Intestino Irritável, Doença de Parkinson, HIV/AIDS",25,3,True,"Omeprazol, Fluoxetina, Aspirina",True,Unimed Nacional,4,False,Sem Alteração Significativa,Nenhum
+240,88,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,11,1,True,"Paracetamol, Nenhuma",False,Unimed Multi,3,True,Melhora,Nenhum
+241,23,Masculino,Fratura de Fêmur,"Doença Renal Crônica, Síndrome do Intestino Irritável, Doença de Alzheimer",1,4,False,"Salbutamol, Paracetamol",True,Unimed Pleno,0,False,Sem Alteração Significativa,"Colonoscopia, Cirurgia de Apendicectomia"
+242,24,Feminino,Pneumonia,Demência,23,2,False,"Insulina, Fluoxetina, Metformina",False,Unimed Total,6,True,Estável,Nenhum
+243,89,Feminino,Câncer de Próstata,Nenhuma,5,4,True,Nenhuma,False,Unimed Nacional,5,False,Piora,Nenhum
+244,52,Feminino,Câncer de Próstata,Síndrome do Intestino Irritável,14,3,False,"Insulina, Paracetamol, Fluoxetina",True,Unimed Multi,10,False,Sem Alteração Significativa,Endoscopia
+245,52,Feminino,Artrite Reumatoide,Doença de Alzheimer,14,4,False,Nenhuma,False,Unimed Total,6,True,Sem Alteração Significativa,Endoscopia
+246,46,Masculino,Doença Arterial Coronariana,Doença Renal Crônica,20,2,True,Salbutamol,True,Unimed Nacional,5,True,Sem Alteração Significativa,Nenhum
+247,76,Masculino,Artrite Reumatoide,Nenhuma,29,3,False,"Nenhuma, Omeprazol, Losartana",False,Unimed Total,5,False,Estável,Nenhum
+248,73,Feminino,Pneumonia,Nenhuma,3,0,False,"Furosemida, Nenhuma",False,Unimed Essencial,5,False,Estável,Cirurgia de Apendicectomia
+249,44,Masculino,Ansiedade,Nenhuma,21,2,False,Nenhuma,True,Unimed Total,2,False,Piora,Nenhum
+250,34,Feminino,Acidente Vascular Cerebral,Nenhuma,7,3,False,Furosemida,False,Unimed Essencial,7,True,Melhora,Angioplastia
+251,77,Feminino,Câncer de Mama,Nenhuma,24,4,True,"Salbutamol, Sinvastatina",True,Unimed Essencial,6,True,Melhora,Colonoscopia
+252,80,Feminino,Depressão,Nenhuma,7,3,False,"Salbutamol, Furosemida, Sinvastatina",False,Unimed Essencial,8,True,Melhora,Angioplastia
+253,20,Masculino,Cálculo Renal,Doença Hepática,24,2,True,Nenhuma,True,Unimed Essencial,9,True,Melhora,"Angioplastia, Cateterismo Cardíaco"
+254,26,Feminino,Fratura de Fêmur,Demência,29,0,True,Nenhuma,False,Unimed Total,0,False,Melhora,Biopsia
+255,55,Masculino,Cálculo Renal,Nenhuma,12,0,False,Nenhuma,False,Unimed Multi,3,False,Melhora,Cirurgia de Catarata
+256,46,Masculino,Apneia do Sono,Nenhuma,17,4,True,"Aspirina, Nenhuma",False,Unimed Nacional,7,True,Sem Alteração Significativa,Cirurgia de Catarata
+257,61,Masculino,Asma,"Obesidade, Síndrome do Intestino Irritável",13,3,False,"Metformina, Fluoxetina, Sertralina",True,Unimed Essencial,7,False,Melhora,Nenhum
+258,37,Masculino,Fratura de Fêmur,"Doença Hepática, Fibromialgia, Doença de Alzheimer",19,0,True,"Paracetamol, Nenhuma, Aspirina",False,Unimed Nacional,8,False,Melhora,Nenhum
+259,75,Masculino,Pneumonia,Doença de Alzheimer,22,2,False,Nenhuma,False,Unimed Essencial,6,True,Sem Alteração Significativa,Cirurgia de Catarata
+260,58,Masculino,Câncer de Próstata,"Obesidade, Doença Hepática",25,4,False,"Paracetamol, Metformina",False,Unimed Total,4,False,Piora,"Endoscopia, Angioplastia"
+261,83,Masculino,Fratura de Fêmur,HIV/AIDS,4,3,True,"Losartana, Aspirina",False,Unimed Essencial,0,True,Melhora,Hemodiálise
+262,26,Masculino,Gastroenterite Aguda,"Doença de Parkinson, HIV/AIDS",16,2,False,Nenhuma,True,Unimed Nacional,10,True,Estável,Nenhum
+263,27,Masculino,Diabetes Mellitus Tipo 2,"Fibromialgia, Doença Renal Crônica",20,5,True,Nenhuma,False,Unimed Multi,0,False,Piora,Nenhum
+264,43,Feminino,Cálculo Renal,"Síndrome do Intestino Irritável, Doença Renal Crônica",20,4,True,"Sertralina, Insulina, Furosemida",True,Unimed Multi,6,False,Sem Alteração Significativa,Nenhum
+265,60,Masculino,Artrite Reumatoide,"Obesidade, Doença de Parkinson",19,3,True,Sinvastatina,False,Unimed Nacional,10,True,Piora,Nenhum
+266,83,Feminino,Asma,Doença Hepática,21,0,True,"Sertralina, Metformina, Nenhuma",False,Unimed Total,3,False,Melhora,Nenhum
+267,64,Feminino,Diabetes Mellitus Tipo 2,Demência,15,3,True,"Aspirina, Metformina, Paracetamol",False,Unimed Essencial,10,False,Sem Alteração Significativa,Cateterismo Cardíaco
+268,75,Feminino,Infecção do Trato Urinário,Fibromialgia,9,5,False,Nenhuma,False,Unimed Nacional,5,False,Sem Alteração Significativa,Nenhum
+269,38,Feminino,Artrite Reumatoide,Nenhuma,4,0,False,"Metformina, Sinvastatina, Insulina",False,Unimed Nacional,6,True,Sem Alteração Significativa,Cateterismo Cardíaco
+270,32,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,24,1,False,"Salbutamol, Furosemida",False,Unimed Multi,3,False,Melhora,Cirurgia de Catarata
+271,29,Feminino,Câncer de Mama,"HIV/AIDS, Síndrome do Intestino Irritável",18,1,True,Nenhuma,False,Unimed Essencial,1,False,Estável,Nenhum
+272,72,Masculino,Apneia do Sono,Fibromialgia,12,4,True,Nenhuma,False,Unimed Pleno,4,True,Piora,Nenhum
+273,62,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Alzheimer, Doença Renal Crônica, Doença Hepática",2,1,False,Metformina,True,Unimed Total,5,False,Piora,Nenhum
+274,86,Masculino,Câncer de Mama,Nenhuma,16,0,False,"Furosemida, Omeprazol, Paracetamol",True,Unimed Multi,10,True,Sem Alteração Significativa,"Angioplastia, Endoscopia"
+275,80,Masculino,Artrite Reumatoide,HIV/AIDS,12,0,True,Insulina,False,Unimed Essencial,8,False,Piora,Nenhum
+276,78,Masculino,Apneia do Sono,Nenhuma,1,3,False,"Salbutamol, Metformina, Fluoxetina",True,Unimed Multi,1,False,Sem Alteração Significativa,Hemodiálise
+277,90,Feminino,Hipertensão Essencial,Doença Renal Crônica,8,1,False,Paracetamol,False,Unimed Total,4,True,Estável,Nenhum
+278,79,Feminino,Ansiedade,Nenhuma,7,4,True,Nenhuma,False,Unimed Essencial,1,True,Piora,Nenhum
+279,69,Feminino,Diabetes Mellitus Tipo 2,Fibromialgia,27,1,False,"Metformina, Furosemida",False,Unimed Essencial,5,False,Estável,Nenhum
+280,70,Feminino,Artrite Reumatoide,"Doença Hepática, Demência",1,0,False,"Sinvastatina, Aspirina, Omeprazol",True,Unimed Nacional,10,False,Piora,Colonoscopia
+281,18,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Alzheimer, Fibromialgia, Síndrome do Intestino Irritável",9,2,False,"Salbutamol, Omeprazol",True,Unimed Pleno,6,False,Piora,"Endoscopia, Angioplastia"
+282,47,Feminino,Câncer de Mama,"Obesidade, Fibromialgia",7,2,False,Nenhuma,True,Unimed Total,4,True,Melhora,Nenhum
+283,82,Feminino,Apneia do Sono,Nenhuma,22,0,True,"Fluoxetina, Sinvastatina, Metformina",False,Unimed Pleno,5,False,Melhora,"Cateterismo Cardíaco, Biopsia"
+284,22,Masculino,Artrite Reumatoide,Nenhuma,5,5,False,Nenhuma,False,Unimed Nacional,10,True,Melhora,Nenhum
+285,61,Feminino,Ansiedade,Doença de Alzheimer,15,2,False,Nenhuma,False,Unimed Multi,8,False,Piora,Cirurgia de Apendicectomia
+286,18,Feminino,Gastroenterite Aguda,Nenhuma,24,3,False,"Sinvastatina, Paracetamol, Losartana",False,Unimed Multi,4,True,Estável,Nenhum
+287,48,Feminino,Câncer de Próstata,"Doença de Parkinson, Obesidade",29,2,True,"Furosemida, Losartana",True,Unimed Multi,8,False,Piora,Nenhum
+288,71,Masculino,Acidente Vascular Cerebral,Síndrome do Intestino Irritável,25,2,True,"Metformina, Aspirina, Nenhuma",False,Unimed Pleno,7,True,Melhora,Hemodiálise
+289,27,Feminino,Câncer de Próstata,Demência,29,1,False,"Salbutamol, Losartana",False,Unimed Multi,0,True,Melhora,Cirurgia de Catarata
+290,90,Masculino,Fratura de Fêmur,Nenhuma,13,1,True,Nenhuma,False,Unimed Essencial,9,False,Estável,Angioplastia
+291,45,Masculino,Asma,"Doença Renal Crônica, Síndrome do Intestino Irritável, Obesidade",22,3,False,Salbutamol,False,Unimed Multi,10,False,Estável,Nenhum
+292,26,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Parkinson, Doença Hepática",9,3,False,Metformina,False,Unimed Nacional,0,False,Estável,Cateterismo Cardíaco
+293,34,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Síndrome do Intestino Irritável,6,4,False,Paracetamol,True,Unimed Nacional,2,False,Melhora,Nenhum
+294,32,Feminino,Apneia do Sono,Nenhuma,1,5,False,Furosemida,True,Unimed Pleno,0,False,Sem Alteração Significativa,"Colonoscopia, Fisioterapia Respiratória"
+295,59,Masculino,Insuficiência Cardíaca Congestiva,"Demência, Síndrome do Intestino Irritável",13,4,False,Losartana,True,Unimed Multi,1,False,Estável,Nenhum
+296,86,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,18,0,False,"Salbutamol, Sinvastatina",True,Unimed Essencial,8,True,Sem Alteração Significativa,"Endoscopia, Cirurgia de Apendicectomia"
+297,54,Feminino,Pneumonia,Nenhuma,8,3,False,Fluoxetina,True,Unimed Nacional,6,True,Sem Alteração Significativa,Nenhum
+298,58,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença Renal Crônica,22,4,True,"Fluoxetina, Metformina, Nenhuma",False,Unimed Pleno,2,True,Estável,Nenhum
+299,54,Feminino,Ansiedade,Nenhuma,18,1,True,"Aspirina, Metformina, Insulina",False,Unimed Nacional,10,True,Sem Alteração Significativa,Biopsia
+300,62,Feminino,Hipertensão Essencial,"Doença Renal Crônica, Síndrome do Intestino Irritável, Doença Hepática",26,1,True,"Nenhuma, Aspirina, Metformina",False,Unimed Multi,3,True,Piora,Cirurgia de Catarata
+301,65,Feminino,Acidente Vascular Cerebral,Nenhuma,17,0,True,Sinvastatina,False,Unimed Total,7,True,Piora,Nenhum
+302,63,Feminino,Doença Arterial Coronariana,Síndrome do Intestino Irritável,7,3,False,Sinvastatina,True,Unimed Total,6,False,Estável,Nenhum
+303,73,Masculino,Ansiedade,Nenhuma,23,1,True,Nenhuma,False,Unimed Pleno,0,True,Estável,"Angioplastia, Cirurgia de Catarata"
+304,40,Masculino,Insuficiência Cardíaca Congestiva,"Síndrome do Intestino Irritável, Doença Renal Crônica",2,1,False,"Salbutamol, Nenhuma",False,Unimed Total,4,False,Sem Alteração Significativa,Nenhum
+305,46,Masculino,Infecção do Trato Urinário,"Síndrome do Intestino Irritável, Doença de Alzheimer",25,3,False,Insulina,True,Unimed Multi,6,True,Melhora,Nenhum
+306,76,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,26,5,True,"Losartana, Furosemida, Omeprazol",False,Unimed Total,10,True,Estável,Nenhum
+307,27,Masculino,Fratura de Fêmur,Nenhuma,9,0,False,Nenhuma,False,Unimed Multi,5,False,Piora,Nenhum
+308,29,Feminino,Fratura de Fêmur,Nenhuma,11,2,False,Nenhuma,False,Unimed Pleno,3,False,Piora,Nenhum
+309,34,Masculino,Insuficiência Cardíaca Congestiva,"Demência, Fibromialgia, Obesidade",29,4,False,Salbutamol,True,Unimed Total,4,False,Sem Alteração Significativa,Nenhum
+310,61,Masculino,Artrite Reumatoide,Nenhuma,12,1,False,"Sertralina, Paracetamol, Metformina",True,Unimed Multi,3,True,Melhora,Nenhum
+311,48,Masculino,Infecção do Trato Urinário,"HIV/AIDS, Obesidade",15,3,False,"Furosemida, Omeprazol",True,Unimed Total,0,False,Melhora,Fisioterapia Respiratória
+312,65,Feminino,Hipertensão Essencial,Nenhuma,24,0,True,Nenhuma,False,Unimed Pleno,2,True,Melhora,Nenhum
+313,58,Feminino,Hipertensão Essencial,"Síndrome do Intestino Irritável, Doença de Parkinson, Doença de Alzheimer",3,5,False,"Sertralina, Sinvastatina, Insulina",False,Unimed Nacional,4,True,Piora,Biopsia
+314,75,Feminino,Acidente Vascular Cerebral,"HIV/AIDS, Obesidade, Doença Renal Crônica",3,2,False,"Salbutamol, Sertralina, Nenhuma",False,Unimed Pleno,6,True,Sem Alteração Significativa,Nenhum
+315,74,Masculino,Pneumonia,Demência,14,5,True,"Paracetamol, Metformina",False,Unimed Multi,4,True,Melhora,Angioplastia
+316,81,Feminino,Câncer de Próstata,Doença Renal Crônica,28,2,True,Fluoxetina,False,Unimed Multi,7,True,Piora,Nenhum
+317,62,Feminino,Asma,Obesidade,20,2,True,"Furosemida, Fluoxetina, Nenhuma",True,Unimed Total,0,True,Melhora,Colonoscopia
+318,79,Feminino,Fratura de Fêmur,"HIV/AIDS, Demência, Doença Hepática",21,0,True,Fluoxetina,False,Unimed Multi,2,True,Sem Alteração Significativa,Nenhum
+319,60,Feminino,Depressão,Nenhuma,23,1,False,Paracetamol,False,Unimed Nacional,5,False,Sem Alteração Significativa,Cateterismo Cardíaco
+320,59,Feminino,Asma,Nenhuma,18,5,False,"Omeprazol, Losartana",False,Unimed Total,10,True,Sem Alteração Significativa,Nenhum
+321,33,Masculino,Hipertensão Essencial,Nenhuma,19,4,False,Nenhuma,False,Unimed Multi,1,False,Melhora,"Cirurgia de Apendicectomia, Biopsia"
+322,50,Feminino,Fratura de Fêmur,"Doença Renal Crônica, Doença de Parkinson, Doença Hepática",3,1,False,"Metformina, Insulina, Paracetamol",False,Unimed Essencial,5,False,Melhora,Fisioterapia Respiratória
+323,36,Feminino,Doença Arterial Coronariana,Nenhuma,12,0,True,Sinvastatina,False,Unimed Multi,8,True,Piora,Nenhum
+324,67,Masculino,Fratura de Fêmur,"Doença Renal Crônica, Síndrome do Intestino Irritável",6,4,False,Nenhuma,False,Unimed Essencial,7,True,Estável,Nenhum
+325,82,Masculino,Apneia do Sono,Nenhuma,4,5,True,Omeprazol,False,Unimed Nacional,3,True,Estável,Biopsia
+326,72,Masculino,Cálculo Renal,"Doença Hepática, Fibromialgia",17,5,True,Losartana,False,Unimed Multi,8,False,Piora,Nenhum
+327,89,Masculino,Depressão,Doença Hepática,26,2,True,Salbutamol,False,Unimed Pleno,10,False,Estável,Cirurgia de Catarata
+328,37,Feminino,Acidente Vascular Cerebral,Demência,25,3,False,Nenhuma,True,Unimed Essencial,6,True,Melhora,"Cateterismo Cardíaco, Endoscopia"
+329,45,Masculino,Depressão,HIV/AIDS,17,0,False,"Omeprazol, Losartana",False,Unimed Pleno,8,True,Melhora,"Cirurgia de Catarata, Cateterismo Cardíaco"
+330,27,Masculino,Gastroenterite Aguda,Nenhuma,21,4,True,"Sinvastatina, Furosemida, Losartana",False,Unimed Pleno,7,True,Estável,Nenhum
+331,30,Masculino,Infecção do Trato Urinário,"Doença de Parkinson, Fibromialgia, Síndrome do Intestino Irritável",2,0,False,Losartana,True,Unimed Total,2,False,Piora,Angioplastia
+332,29,Feminino,Depressão,Doença de Parkinson,7,2,False,Nenhuma,True,Unimed Pleno,4,False,Melhora,Nenhum
+333,49,Masculino,Depressão,Nenhuma,18,2,True,Nenhuma,False,Unimed Pleno,3,True,Piora,Nenhum
+334,31,Feminino,Gastroenterite Aguda,Nenhuma,22,0,False,"Metformina, Fluoxetina",False,Unimed Nacional,4,False,Sem Alteração Significativa,Nenhum
+335,37,Masculino,Infecção do Trato Urinário,"Doença de Alzheimer, Demência",23,1,True,Nenhuma,True,Unimed Nacional,10,True,Sem Alteração Significativa,Cirurgia de Catarata
+336,47,Feminino,Artrite Reumatoide,Nenhuma,30,0,False,"Omeprazol, Sinvastatina, Nenhuma",False,Unimed Total,10,True,Sem Alteração Significativa,Nenhum
+337,64,Feminino,Asma,Nenhuma,30,1,False,Paracetamol,False,Unimed Total,5,False,Sem Alteração Significativa,Nenhum
+338,24,Masculino,Insuficiência Cardíaca Congestiva,"Doença Hepática, Fibromialgia",7,1,False,"Sertralina, Losartana",True,Unimed Total,9,False,Sem Alteração Significativa,"Biopsia, Cirurgia de Apendicectomia"
+339,56,Feminino,Doença Arterial Coronariana,Nenhuma,2,5,False,"Fluoxetina, Aspirina",False,Unimed Total,3,True,Melhora,Nenhum
+340,59,Masculino,Cálculo Renal,Nenhuma,2,0,False,Metformina,True,Unimed Essencial,5,False,Sem Alteração Significativa,"Hemodiálise, Cateterismo Cardíaco"
+341,73,Feminino,Infecção do Trato Urinário,Nenhuma,29,4,True,"Nenhuma, Furosemida",False,Unimed Essencial,5,False,Melhora,Nenhum
+342,90,Feminino,Artrite Reumatoide,"Fibromialgia, Doença Renal Crônica, HIV/AIDS",26,1,True,"Aspirina, Losartana",False,Unimed Total,0,True,Estável,Cirurgia de Catarata
+343,51,Masculino,Asma,"Demência, Obesidade",5,3,False,Nenhuma,False,Unimed Essencial,5,False,Estável,Nenhum
+344,40,Masculino,Artrite Reumatoide,Nenhuma,29,0,False,"Fluoxetina, Aspirina",False,Unimed Pleno,3,False,Estável,Angioplastia
+345,89,Feminino,Asma,"Doença de Alzheimer, Obesidade, Fibromialgia",7,2,True,Sinvastatina,False,Unimed Total,1,False,Melhora,Cateterismo Cardíaco
+346,46,Feminino,Pneumonia,HIV/AIDS,11,2,False,"Metformina, Furosemida, Aspirina",True,Unimed Multi,10,True,Melhora,Nenhum
+347,56,Feminino,Gastroenterite Aguda,Fibromialgia,23,3,False,"Nenhuma, Omeprazol, Losartana",False,Unimed Pleno,2,True,Melhora,Endoscopia
+348,50,Feminino,Infecção do Trato Urinário,Obesidade,23,3,False,Salbutamol,False,Unimed Nacional,4,False,Melhora,Nenhum
+349,50,Masculino,Ansiedade,Demência,30,0,True,"Losartana, Sinvastatina",False,Unimed Essencial,2,True,Melhora,Nenhum
+350,46,Masculino,Pneumonia,Doença Hepática,23,2,True,"Fluoxetina, Metformina, Sertralina",False,Unimed Multi,6,False,Melhora,Cirurgia de Apendicectomia
+351,59,Masculino,Ansiedade,"Doença de Alzheimer, Doença Hepática",17,4,False,"Losartana, Sinvastatina",False,Unimed Pleno,5,False,Piora,Nenhum
+352,55,Feminino,Doença Arterial Coronariana,Nenhuma,21,5,True,Nenhuma,False,Unimed Total,8,True,Piora,Angioplastia
+353,18,Masculino,Fratura de Fêmur,Fibromialgia,20,4,True,Fluoxetina,True,Unimed Pleno,9,True,Sem Alteração Significativa,Nenhum
+354,41,Feminino,Câncer de Próstata,Síndrome do Intestino Irritável,24,5,False,Salbutamol,False,Unimed Multi,10,False,Estável,"Cirurgia de Catarata, Biopsia"
+355,45,Feminino,Apneia do Sono,Fibromialgia,3,1,False,"Nenhuma, Salbutamol, Paracetamol",False,Unimed Essencial,3,True,Piora,Colonoscopia
+356,67,Masculino,Acidente Vascular Cerebral,Nenhuma,17,3,True,Losartana,True,Unimed Multi,6,True,Sem Alteração Significativa,"Cirurgia de Catarata, Cateterismo Cardíaco"
+357,32,Masculino,Ansiedade,"Doença de Parkinson, Demência",14,3,False,Nenhuma,True,Unimed Total,6,True,Estável,"Hemodiálise, Fisioterapia Respiratória"
+358,63,Feminino,Câncer de Próstata,"Doença Renal Crônica, Demência",4,4,False,"Fluoxetina, Nenhuma, Losartana",True,Unimed Multi,2,False,Melhora,Fisioterapia Respiratória
+359,20,Masculino,Diabetes Mellitus Tipo 2,Obesidade,29,3,True,"Sertralina, Sinvastatina",True,Unimed Multi,1,True,Estável,Nenhum
+360,26,Feminino,Artrite Reumatoide,Nenhuma,5,5,False,"Losartana, Sinvastatina, Sertralina",False,Unimed Multi,3,False,Estável,Nenhum
+361,29,Feminino,Artrite Reumatoide,Doença Hepática,23,1,False,Nenhuma,False,Unimed Nacional,2,True,Estável,Endoscopia
+362,81,Feminino,Pneumonia,Nenhuma,17,0,True,Nenhuma,False,Unimed Pleno,3,True,Estável,Nenhum
+363,73,Feminino,Depressão,Doença de Parkinson,24,5,True,"Salbutamol, Furosemida",False,Unimed Pleno,1,True,Melhora,Nenhum
+364,56,Feminino,Fratura de Fêmur,Doença de Alzheimer,6,2,False,"Omeprazol, Sertralina, Insulina",False,Unimed Pleno,3,False,Estável,Nenhum
+365,84,Feminino,Depressão,Nenhuma,22,2,False,Fluoxetina,False,Unimed Nacional,7,True,Piora,Nenhum
+366,90,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,1,5,True,"Furosemida, Paracetamol",True,Unimed Nacional,8,True,Melhora,Nenhum
+367,19,Feminino,Insuficiência Cardíaca Congestiva,"Fibromialgia, Doença de Parkinson, HIV/AIDS",7,1,False,"Fluoxetina, Salbutamol, Omeprazol",False,Unimed Multi,1,True,Sem Alteração Significativa,Biopsia
+368,23,Masculino,Infecção do Trato Urinário,Fibromialgia,12,4,False,"Sertralina, Fluoxetina",False,Unimed Multi,8,True,Estável,"Cirurgia de Apendicectomia, Endoscopia"
+369,59,Feminino,Apneia do Sono,Nenhuma,12,3,False,"Omeprazol, Furosemida, Losartana",True,Unimed Nacional,8,True,Piora,Nenhum
+370,76,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Demência, Doença de Alzheimer",5,4,False,Nenhuma,False,Unimed Total,4,True,Melhora,Nenhum
+371,54,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Síndrome do Intestino Irritável,5,3,False,"Metformina, Aspirina",False,Unimed Multi,2,False,Estável,Nenhum
+372,26,Masculino,Gastroenterite Aguda,"Obesidade, Demência",29,5,True,"Furosemida, Insulina",False,Unimed Total,2,True,Estável,Nenhum
+373,60,Feminino,Apneia do Sono,Doença Hepática,22,5,False,Nenhuma,False,Unimed Nacional,8,False,Sem Alteração Significativa,Cirurgia de Catarata
+374,38,Masculino,Câncer de Mama,Doença Renal Crônica,2,0,False,"Aspirina, Furosemida, Sertralina",False,Unimed Multi,2,False,Sem Alteração Significativa,Nenhum
+375,81,Feminino,Diabetes Mellitus Tipo 2,"Síndrome do Intestino Irritável, HIV/AIDS",20,4,False,"Sertralina, Omeprazol",False,Unimed Nacional,6,True,Sem Alteração Significativa,Nenhum
+376,28,Feminino,Ansiedade,"Demência, Fibromialgia",29,1,False,Nenhuma,False,Unimed Pleno,4,True,Estável,Nenhum
+377,36,Feminino,Câncer de Próstata,Nenhuma,26,0,True,"Salbutamol, Insulina, Paracetamol",False,Unimed Total,4,True,Melhora,Nenhum
+378,62,Masculino,Apneia do Sono,"Síndrome do Intestino Irritável, Obesidade",6,0,False,"Omeprazol, Salbutamol, Metformina",False,Unimed Nacional,1,False,Melhora,Nenhum
+379,23,Feminino,Pneumonia,"Demência, Fibromialgia, Obesidade",12,0,False,"Salbutamol, Nenhuma, Metformina",False,Unimed Essencial,0,True,Melhora,Cirurgia de Apendicectomia
+380,62,Feminino,Doença Arterial Coronariana,Nenhuma,24,2,True,Metformina,True,Unimed Essencial,5,True,Piora,Nenhum
+381,68,Feminino,Insuficiência Cardíaca Congestiva,Fibromialgia,19,1,True,Nenhuma,False,Unimed Pleno,5,True,Piora,Nenhum
+382,89,Feminino,Pneumonia,"Fibromialgia, Síndrome do Intestino Irritável",29,0,False,Sinvastatina,False,Unimed Total,6,True,Piora,"Angioplastia, Cirurgia de Apendicectomia"
+383,85,Feminino,Doença Arterial Coronariana,Obesidade,15,5,False,Nenhuma,False,Unimed Nacional,9,False,Estável,"Fisioterapia Respiratória, Cirurgia de Catarata"
+384,39,Feminino,Gastroenterite Aguda,"Síndrome do Intestino Irritável, Demência",7,5,False,"Sertralina, Fluoxetina, Paracetamol",True,Unimed Total,5,False,Sem Alteração Significativa,Biopsia
+385,74,Masculino,Gastroenterite Aguda,Doença de Alzheimer,25,4,False,"Aspirina, Nenhuma, Metformina",False,Unimed Multi,9,True,Piora,Nenhum
+386,68,Masculino,Câncer de Próstata,"HIV/AIDS, Demência, Doença Hepática",9,5,True,"Sertralina, Losartana",False,Unimed Pleno,5,True,Sem Alteração Significativa,Nenhum
+387,49,Masculino,Hipertensão Essencial,Doença Renal Crônica,23,3,True,Nenhuma,False,Unimed Pleno,8,False,Melhora,Cirurgia de Apendicectomia
+388,21,Feminino,Infecção do Trato Urinário,Síndrome do Intestino Irritável,30,0,True,Nenhuma,True,Unimed Essencial,8,True,Sem Alteração Significativa,Angioplastia
+389,21,Masculino,Pneumonia,"Doença Hepática, Síndrome do Intestino Irritável",10,0,False,"Furosemida, Aspirina, Salbutamol",False,Unimed Pleno,8,True,Sem Alteração Significativa,Nenhum
+390,75,Masculino,Depressão,Nenhuma,3,1,True,"Furosemida, Fluoxetina",True,Unimed Multi,8,False,Piora,Nenhum
+391,46,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,14,5,False,"Omeprazol, Losartana",False,Unimed Multi,9,False,Melhora,Cirurgia de Apendicectomia
+392,21,Feminino,Câncer de Mama,Nenhuma,14,3,True,"Paracetamol, Insulina, Aspirina",False,Unimed Essencial,8,True,Melhora,Hemodiálise
+393,62,Masculino,Acidente Vascular Cerebral,"Obesidade, HIV/AIDS",13,4,False,Omeprazol,False,Unimed Pleno,1,False,Estável,Colonoscopia
+394,42,Feminino,Asma,HIV/AIDS,29,0,True,"Losartana, Sinvastatina, Omeprazol",False,Unimed Essencial,5,True,Piora,Nenhum
+395,41,Masculino,Diabetes Mellitus Tipo 2,"Doença de Parkinson, Demência",24,3,True,Nenhuma,True,Unimed Total,4,True,Sem Alteração Significativa,Nenhum
+396,43,Masculino,Gastroenterite Aguda,"Doença de Alzheimer, Doença Renal Crônica",22,1,False,"Furosemida, Sinvastatina, Sertralina",False,Unimed Essencial,1,False,Melhora,Nenhum
+397,52,Feminino,Apneia do Sono,Nenhuma,2,3,True,Furosemida,False,Unimed Essencial,3,True,Sem Alteração Significativa,Cirurgia de Apendicectomia
+398,42,Masculino,Acidente Vascular Cerebral,Nenhuma,27,0,True,Fluoxetina,False,Unimed Total,1,True,Estável,Nenhum
+399,82,Feminino,Fratura de Fêmur,Nenhuma,12,4,False,"Sertralina, Insulina, Losartana",False,Unimed Pleno,9,True,Melhora,Nenhum
+400,47,Masculino,Ansiedade,"HIV/AIDS, Doença de Alzheimer",30,3,False,"Nenhuma, Aspirina",False,Unimed Nacional,0,False,Sem Alteração Significativa,Endoscopia
+401,66,Feminino,Artrite Reumatoide,"Demência, Obesidade",24,3,True,Nenhuma,False,Unimed Total,9,True,Sem Alteração Significativa,Nenhum
+402,34,Feminino,Artrite Reumatoide,Demência,22,1,True,Nenhuma,False,Unimed Essencial,9,True,Estável,Nenhum
+403,89,Feminino,Câncer de Mama,"HIV/AIDS, Síndrome do Intestino Irritável",25,4,True,"Paracetamol, Metformina",False,Unimed Multi,10,True,Melhora,Nenhum
+404,79,Feminino,Asma,Doença Hepática,4,1,True,"Omeprazol, Losartana, Sertralina",False,Unimed Essencial,6,False,Sem Alteração Significativa,Hemodiálise
+405,50,Feminino,Ansiedade,Doença Renal Crônica,4,5,False,Nenhuma,True,Unimed Total,10,False,Melhora,Nenhum
+406,28,Feminino,Hipertensão Essencial,"Doença Hepática, Doença de Parkinson, Fibromialgia",28,1,True,"Salbutamol, Sertralina, Omeprazol",False,Unimed Essencial,10,True,Piora,Fisioterapia Respiratória
+407,61,Masculino,Pneumonia,"Doença Renal Crônica, Obesidade",3,3,False,"Furosemida, Insulina",False,Unimed Total,2,False,Melhora,"Angioplastia, Fisioterapia Respiratória"
+408,26,Masculino,Apneia do Sono,HIV/AIDS,10,3,False,Salbutamol,False,Unimed Pleno,8,True,Melhora,"Endoscopia, Angioplastia"
+409,88,Masculino,Pneumonia,Obesidade,6,0,False,Nenhuma,False,Unimed Pleno,4,False,Piora,Endoscopia
+410,90,Masculino,Pneumonia,Doença Renal Crônica,5,0,True,Omeprazol,False,Unimed Multi,3,True,Estável,Nenhum
+411,81,Feminino,Diabetes Mellitus Tipo 2,Doença de Parkinson,13,3,True,Nenhuma,True,Unimed Nacional,1,True,Sem Alteração Significativa,Nenhum
+412,62,Masculino,Doença Arterial Coronariana,"Demência, Fibromialgia",4,1,False,Furosemida,True,Unimed Nacional,0,False,Melhora,Nenhum
+413,61,Feminino,Depressão,Nenhuma,28,5,True,Omeprazol,False,Unimed Nacional,6,False,Piora,Colonoscopia
+414,70,Feminino,Doença Arterial Coronariana,Nenhuma,29,4,True,Aspirina,False,Unimed Total,6,False,Piora,Nenhum
+415,54,Masculino,Asma,Fibromialgia,9,1,False,Sinvastatina,False,Unimed Total,10,True,Piora,"Hemodiálise, Colonoscopia"
+416,39,Feminino,Câncer de Próstata,Doença Hepática,23,3,False,Aspirina,True,Unimed Essencial,3,True,Piora,"Cirurgia de Catarata, Biopsia"
+417,78,Masculino,Acidente Vascular Cerebral,HIV/AIDS,11,0,False,Insulina,False,Unimed Total,7,True,Sem Alteração Significativa,"Biopsia, Cirurgia de Apendicectomia"
+418,59,Feminino,Depressão,Doença de Alzheimer,18,5,True,Fluoxetina,True,Unimed Nacional,5,False,Piora,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+419,18,Feminino,Asma,Fibromialgia,22,3,True,"Salbutamol, Losartana, Nenhuma",False,Unimed Essencial,1,False,Sem Alteração Significativa,Nenhum
+420,64,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,3,1,False,"Fluoxetina, Furosemida, Losartana",False,Unimed Essencial,9,True,Estável,Cirurgia de Apendicectomia
+421,66,Feminino,Artrite Reumatoide,Síndrome do Intestino Irritável,17,5,True,"Nenhuma, Insulina",True,Unimed Total,8,True,Piora,Nenhum
+422,45,Feminino,Câncer de Mama,Nenhuma,15,4,True,Salbutamol,True,Unimed Total,7,False,Melhora,Fisioterapia Respiratória
+423,54,Masculino,Infecção do Trato Urinário,Nenhuma,22,0,False,"Insulina, Nenhuma, Salbutamol",False,Unimed Multi,7,True,Sem Alteração Significativa,Nenhum
+424,19,Masculino,Gastroenterite Aguda,Nenhuma,5,0,False,Omeprazol,False,Unimed Total,9,True,Estável,"Biopsia, Colonoscopia"
+425,32,Masculino,Apneia do Sono,Doença de Alzheimer,14,4,False,Nenhuma,False,Unimed Multi,9,False,Piora,"Cateterismo Cardíaco, Colonoscopia"
+426,44,Feminino,Artrite Reumatoide,"Doença de Alzheimer, Doença Hepática",21,3,True,"Sertralina, Sinvastatina",True,Unimed Nacional,4,True,Melhora,Fisioterapia Respiratória
+427,46,Masculino,Artrite Reumatoide,Doença de Parkinson,7,5,False,"Furosemida, Nenhuma",False,Unimed Nacional,5,True,Estável,Endoscopia
+428,70,Masculino,Hipertensão Essencial,Nenhuma,6,5,False,Nenhuma,False,Unimed Essencial,0,True,Piora,"Angioplastia, Hemodiálise"
+429,61,Masculino,Ansiedade,Fibromialgia,11,5,False,Nenhuma,True,Unimed Multi,1,True,Piora,Nenhum
+430,20,Masculino,Artrite Reumatoide,"Demência, Doença de Parkinson",25,2,False,"Sertralina, Aspirina, Salbutamol",False,Unimed Multi,2,False,Melhora,Nenhum
+431,72,Masculino,Câncer de Mama,"Doença de Alzheimer, Doença Hepática",1,4,False,"Fluoxetina, Aspirina",True,Unimed Essencial,6,True,Piora,Cateterismo Cardíaco
+432,41,Feminino,Insuficiência Cardíaca Congestiva,Doença Hepática,5,4,False,"Nenhuma, Aspirina, Furosemida",False,Unimed Pleno,7,True,Estável,Nenhum
+433,53,Masculino,Apneia do Sono,Nenhuma,8,0,False,Nenhuma,False,Unimed Essencial,3,False,Sem Alteração Significativa,Nenhum
+434,86,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"HIV/AIDS, Doença Renal Crônica, Doença Hepática",24,3,False,Omeprazol,True,Unimed Nacional,7,False,Estável,Cirurgia de Catarata
+435,84,Masculino,Ansiedade,Doença Hepática,7,0,False,Sinvastatina,False,Unimed Pleno,2,False,Piora,Colonoscopia
+436,68,Feminino,Insuficiência Cardíaca Congestiva,HIV/AIDS,12,4,False,"Omeprazol, Metformina, Insulina",False,Unimed Total,0,False,Sem Alteração Significativa,"Hemodiálise, Endoscopia"
+437,54,Masculino,Depressão,Nenhuma,7,0,False,Nenhuma,False,Unimed Multi,6,True,Estável,"Cirurgia de Apendicectomia, Endoscopia"
+438,77,Feminino,Pneumonia,Nenhuma,1,5,True,"Nenhuma, Omeprazol, Insulina",False,Unimed Nacional,10,True,Sem Alteração Significativa,Fisioterapia Respiratória
+439,62,Masculino,Hipertensão Essencial,"Doença Hepática, Demência",27,4,True,Nenhuma,True,Unimed Multi,4,True,Sem Alteração Significativa,Cirurgia de Apendicectomia
+440,81,Feminino,Asma,Nenhuma,3,5,True,"Aspirina, Paracetamol, Fluoxetina",False,Unimed Nacional,3,False,Melhora,Cirurgia de Apendicectomia
+441,83,Masculino,Apneia do Sono,Doença de Alzheimer,23,4,False,Nenhuma,True,Unimed Essencial,7,False,Melhora,Nenhum
+442,41,Masculino,Pneumonia,Nenhuma,20,1,True,"Metformina, Nenhuma, Salbutamol",False,Unimed Total,9,False,Estável,Nenhum
+443,70,Masculino,Apneia do Sono,Doença Renal Crônica,6,0,True,"Nenhuma, Metformina",True,Unimed Essencial,6,True,Melhora,Nenhum
+444,86,Feminino,Ansiedade,"Doença de Parkinson, Doença de Alzheimer",5,5,True,"Paracetamol, Insulina, Fluoxetina",False,Unimed Nacional,3,False,Sem Alteração Significativa,Nenhum
+445,39,Feminino,Câncer de Mama,Nenhuma,13,3,False,Nenhuma,True,Unimed Nacional,4,False,Melhora,Cirurgia de Catarata
+446,41,Masculino,Ansiedade,Doença de Alzheimer,30,4,True,Insulina,False,Unimed Multi,4,False,Sem Alteração Significativa,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+447,60,Masculino,Fratura de Fêmur,Doença Hepática,22,0,False,Nenhuma,False,Unimed Multi,9,True,Sem Alteração Significativa,Nenhum
+448,85,Masculino,Ansiedade,Nenhuma,6,4,True,Paracetamol,True,Unimed Total,1,True,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Endoscopia"
+449,50,Feminino,Depressão,Nenhuma,17,1,False,"Fluoxetina, Furosemida",False,Unimed Total,3,False,Melhora,Endoscopia
+450,47,Feminino,Pneumonia,Síndrome do Intestino Irritável,15,3,False,"Insulina, Losartana, Aspirina",False,Unimed Pleno,0,False,Piora,Colonoscopia
+451,84,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,20,2,True,Nenhuma,True,Unimed Multi,3,False,Melhora,Nenhum
+452,43,Feminino,Hipertensão Essencial,Doença de Parkinson,2,2,False,"Paracetamol, Aspirina",True,Unimed Essencial,5,False,Estável,Nenhum
+453,27,Masculino,Artrite Reumatoide,"Demência, HIV/AIDS",21,1,True,Losartana,True,Unimed Nacional,5,True,Sem Alteração Significativa,Nenhum
+454,57,Feminino,Pneumonia,Nenhuma,5,3,False,Nenhuma,False,Unimed Total,10,True,Sem Alteração Significativa,"Angioplastia, Colonoscopia"
+455,69,Feminino,Cálculo Renal,Doença de Parkinson,3,1,False,Nenhuma,False,Unimed Nacional,5,False,Estável,Colonoscopia
+456,88,Masculino,Infecção do Trato Urinário,Nenhuma,25,5,True,"Insulina, Paracetamol",True,Unimed Essencial,9,True,Piora,Hemodiálise
+457,59,Masculino,Infecção do Trato Urinário,Nenhuma,20,0,True,Nenhuma,False,Unimed Multi,7,True,Melhora,Nenhum
+458,29,Feminino,Diabetes Mellitus Tipo 2,"Doença Renal Crônica, Síndrome do Intestino Irritável",7,1,False,"Aspirina, Salbutamol, Fluoxetina",False,Unimed Essencial,0,True,Sem Alteração Significativa,Colonoscopia
+459,58,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,25,1,True,"Sinvastatina, Furosemida",False,Unimed Essencial,10,True,Sem Alteração Significativa,"Fisioterapia Respiratória, Cirurgia de Catarata"
+460,51,Feminino,Ansiedade,"Doença de Parkinson, Obesidade, Doença Renal Crônica",8,0,False,"Salbutamol, Omeprazol",False,Unimed Multi,4,False,Melhora,"Colonoscopia, Cirurgia de Apendicectomia"
+461,59,Feminino,Doença Arterial Coronariana,Síndrome do Intestino Irritável,7,3,False,Nenhuma,False,Unimed Multi,9,True,Estável,Nenhum
+462,59,Feminino,Apneia do Sono,"HIV/AIDS, Doença de Alzheimer",18,4,True,Fluoxetina,False,Unimed Pleno,10,True,Sem Alteração Significativa,Colonoscopia
+463,55,Masculino,Depressão,"Doença de Parkinson, Doença Renal Crônica",8,1,False,Aspirina,False,Unimed Nacional,9,True,Estável,"Cateterismo Cardíaco, Cirurgia de Catarata"
+464,61,Feminino,Asma,Nenhuma,15,4,False,Furosemida,False,Unimed Total,7,True,Melhora,Nenhum
+465,19,Feminino,Asma,Nenhuma,26,4,True,"Paracetamol, Sinvastatina",False,Unimed Pleno,2,True,Melhora,Biopsia
+466,76,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,7,4,True,"Omeprazol, Furosemida, Sertralina",False,Unimed Multi,8,True,Melhora,Nenhum
+467,89,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Doença de Alzheimer, HIV/AIDS",4,0,True,Sinvastatina,True,Unimed Nacional,4,True,Estável,"Colonoscopia, Fisioterapia Respiratória"
+468,85,Feminino,Depressão,Doença de Alzheimer,2,4,False,"Losartana, Insulina, Aspirina",False,Unimed Total,10,True,Melhora,Nenhum
+469,89,Feminino,Cálculo Renal,"Doença Renal Crônica, Obesidade",30,2,True,"Insulina, Sertralina, Losartana",False,Unimed Total,1,True,Sem Alteração Significativa,Cirurgia de Apendicectomia
+470,68,Feminino,Câncer de Mama,Doença de Parkinson,5,5,True,Metformina,False,Unimed Nacional,9,True,Piora,Nenhum
+471,83,Feminino,Apneia do Sono,"Doença Renal Crônica, Demência",12,0,True,"Salbutamol, Nenhuma, Furosemida",False,Unimed Multi,2,False,Melhora,"Hemodiálise, Cateterismo Cardíaco"
+472,90,Masculino,Câncer de Mama,Nenhuma,19,3,True,Furosemida,False,Unimed Essencial,10,True,Melhora,Endoscopia
+473,31,Masculino,Depressão,Nenhuma,3,5,False,Nenhuma,True,Unimed Nacional,9,True,Estável,Nenhum
+474,89,Feminino,Apneia do Sono,Nenhuma,12,5,False,Aspirina,False,Unimed Pleno,4,True,Melhora,Nenhum
+475,52,Feminino,Fratura de Fêmur,Nenhuma,19,1,True,Losartana,False,Unimed Essencial,4,False,Estável,Cirurgia de Apendicectomia
+476,76,Feminino,Doença Arterial Coronariana,HIV/AIDS,2,3,False,"Fluoxetina, Metformina",True,Unimed Essencial,9,True,Sem Alteração Significativa,Endoscopia
+477,82,Feminino,Pneumonia,Nenhuma,3,2,True,"Furosemida, Insulina, Losartana",False,Unimed Pleno,9,False,Piora,Nenhum
+478,84,Masculino,Hipertensão Essencial,"Fibromialgia, Obesidade",13,0,True,"Omeprazol, Losartana",False,Unimed Multi,6,True,Piora,Nenhum
+479,67,Feminino,Hipertensão Essencial,Síndrome do Intestino Irritável,21,4,True,"Omeprazol, Insulina, Fluoxetina",False,Unimed Pleno,6,True,Estável,Nenhum
+480,28,Feminino,Câncer de Próstata,"Doença de Alzheimer, Demência, Fibromialgia",8,2,False,Insulina,True,Unimed Total,1,False,Sem Alteração Significativa,"Fisioterapia Respiratória, Cateterismo Cardíaco"
+481,70,Feminino,Acidente Vascular Cerebral,"Doença de Alzheimer, Doença de Parkinson",24,1,False,Omeprazol,False,Unimed Total,10,True,Estável,Nenhum
+482,84,Feminino,Artrite Reumatoide,Nenhuma,13,1,False,Omeprazol,True,Unimed Multi,4,True,Piora,"Cirurgia de Catarata, Biopsia"
+483,32,Masculino,Fratura de Fêmur,Nenhuma,16,1,True,Nenhuma,False,Unimed Essencial,1,True,Piora,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+484,51,Feminino,Apneia do Sono,Demência,24,0,True,Nenhuma,False,Unimed Total,5,True,Sem Alteração Significativa,Nenhum
+485,60,Masculino,Apneia do Sono,"Obesidade, Demência",22,0,False,"Metformina, Sertralina, Omeprazol",False,Unimed Essencial,2,False,Estável,"Biopsia, Cateterismo Cardíaco"
+486,56,Masculino,Cálculo Renal,Nenhuma,6,2,False,"Nenhuma, Salbutamol, Losartana",False,Unimed Total,3,False,Estável,Nenhum
+487,84,Feminino,Gastroenterite Aguda,Nenhuma,19,5,True,"Sinvastatina, Aspirina, Paracetamol",False,Unimed Multi,8,True,Estável,Cateterismo Cardíaco
+488,38,Masculino,Cálculo Renal,"Obesidade, Síndrome do Intestino Irritável",4,2,False,Nenhuma,False,Unimed Nacional,1,True,Piora,"Colonoscopia, Biopsia"
+489,83,Masculino,Câncer de Mama,HIV/AIDS,5,1,True,"Losartana, Omeprazol, Salbutamol",False,Unimed Total,7,True,Estável,Nenhum
+490,19,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença Renal Crônica,4,1,False,Salbutamol,False,Unimed Essencial,8,True,Sem Alteração Significativa,Nenhum
+491,75,Masculino,Câncer de Próstata,"Doença Renal Crônica, Demência",9,3,True,Nenhuma,False,Unimed Pleno,8,False,Sem Alteração Significativa,Nenhum
+492,35,Feminino,Infecção do Trato Urinário,Nenhuma,16,4,True,"Salbutamol, Aspirina, Metformina",False,Unimed Pleno,6,True,Piora,Nenhum
+493,24,Feminino,Hipertensão Essencial,Demência,29,2,True,Losartana,False,Unimed Nacional,5,False,Estável,Nenhum
+494,34,Feminino,Câncer de Mama,"Fibromialgia, HIV/AIDS",19,4,True,Aspirina,False,Unimed Multi,5,False,Estável,"Biopsia, Cirurgia de Apendicectomia"
+495,55,Feminino,Infecção do Trato Urinário,Nenhuma,14,1,False,Aspirina,False,Unimed Pleno,8,True,Melhora,Nenhum
+496,88,Masculino,Ansiedade,Nenhuma,14,5,False,Nenhuma,True,Unimed Pleno,4,False,Estável,"Endoscopia, Angioplastia"
+497,81,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,23,2,True,"Insulina, Paracetamol, Sinvastatina",False,Unimed Total,9,False,Piora,Nenhum
+498,60,Masculino,Fratura de Fêmur,Obesidade,28,3,True,Sertralina,False,Unimed Nacional,7,False,Piora,Nenhum
+499,52,Feminino,Artrite Reumatoide,Nenhuma,11,3,False,Omeprazol,True,Unimed Pleno,6,True,Sem Alteração Significativa,Nenhum
+500,37,Masculino,Infecção do Trato Urinário,Obesidade,4,1,False,"Sertralina, Aspirina, Sinvastatina",False,Unimed Nacional,7,True,Estável,"Angioplastia, Cirurgia de Catarata"
+501,64,Masculino,Depressão,Nenhuma,24,2,True,"Salbutamol, Sinvastatina, Furosemida",True,Unimed Pleno,3,True,Piora,Hemodiálise
+502,36,Masculino,Ansiedade,"Doença de Alzheimer, Síndrome do Intestino Irritável, Doença de Parkinson",18,3,True,"Paracetamol, Nenhuma",True,Unimed Total,1,False,Piora,Hemodiálise
+503,42,Masculino,Infecção do Trato Urinário,Demência,24,1,False,"Sertralina, Omeprazol",False,Unimed Multi,2,False,Piora,"Cirurgia de Apendicectomia, Angioplastia"
+504,81,Masculino,Diabetes Mellitus Tipo 2,"Doença Renal Crônica, Fibromialgia, Doença Hepática",16,1,False,"Fluoxetina, Paracetamol, Insulina",True,Unimed Nacional,0,False,Piora,Nenhum
+505,42,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,24,3,True,Nenhuma,True,Unimed Multi,1,True,Estável,Nenhum
+506,65,Masculino,Acidente Vascular Cerebral,Nenhuma,22,0,True,"Paracetamol, Metformina, Insulina",False,Unimed Pleno,7,True,Melhora,Nenhum
+507,83,Masculino,Acidente Vascular Cerebral,"Obesidade, Fibromialgia",4,1,False,Aspirina,False,Unimed Pleno,3,True,Sem Alteração Significativa,Nenhum
+508,21,Masculino,Depressão,Nenhuma,10,0,False,"Nenhuma, Salbutamol",False,Unimed Pleno,5,False,Sem Alteração Significativa,Nenhum
+509,34,Feminino,Fratura de Fêmur,Nenhuma,17,5,True,Nenhuma,False,Unimed Essencial,7,True,Sem Alteração Significativa,Nenhum
+510,56,Feminino,Cálculo Renal,Doença de Parkinson,2,0,False,"Losartana, Nenhuma, Salbutamol",False,Unimed Total,1,True,Estável,Nenhum
+511,81,Masculino,Ansiedade,Doença Renal Crônica,16,4,False,Nenhuma,True,Unimed Total,8,True,Piora,Nenhum
+512,25,Feminino,Asma,Demência,23,2,True,Aspirina,False,Unimed Essencial,10,True,Estável,Fisioterapia Respiratória
+513,26,Feminino,Artrite Reumatoide,Síndrome do Intestino Irritável,9,5,False,Aspirina,False,Unimed Pleno,6,True,Estável,Endoscopia
+514,64,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,3,1,True,"Furosemida, Fluoxetina, Omeprazol",False,Unimed Multi,9,False,Estável,Nenhum
+515,89,Masculino,Infecção do Trato Urinário,"Demência, Síndrome do Intestino Irritável",25,3,False,"Furosemida, Metformina, Paracetamol",False,Unimed Pleno,4,False,Estável,"Colonoscopia, Angioplastia"
+516,31,Masculino,Câncer de Próstata,Obesidade,13,5,False,"Aspirina, Salbutamol, Metformina",False,Unimed Nacional,9,False,Sem Alteração Significativa,Nenhum
+517,25,Masculino,Fratura de Fêmur,Síndrome do Intestino Irritável,24,3,True,Nenhuma,False,Unimed Total,0,True,Estável,Nenhum
+518,65,Feminino,Gastroenterite Aguda,Nenhuma,12,1,False,"Salbutamol, Insulina",False,Unimed Essencial,5,False,Sem Alteração Significativa,Fisioterapia Respiratória
+519,73,Feminino,Insuficiência Cardíaca Congestiva,"Doença Renal Crônica, HIV/AIDS, Demência",5,1,True,"Furosemida, Sertralina",False,Unimed Pleno,5,False,Piora,Cateterismo Cardíaco
+520,72,Masculino,Hipertensão Essencial,"Demência, Doença Renal Crônica",4,4,True,Furosemida,False,Unimed Multi,0,False,Melhora,Nenhum
+521,85,Masculino,Pneumonia,Nenhuma,5,5,True,Losartana,False,Unimed Nacional,4,True,Sem Alteração Significativa,Nenhum
+522,34,Masculino,Insuficiência Cardíaca Congestiva,"Fibromialgia, Doença de Parkinson, Doença de Alzheimer",18,1,True,Losartana,False,Unimed Nacional,0,True,Piora,Nenhum
+523,70,Masculino,Fratura de Fêmur,Doença Hepática,20,5,False,Sinvastatina,False,Unimed Total,6,True,Piora,Cateterismo Cardíaco
+524,63,Masculino,Doença Arterial Coronariana,"Obesidade, Síndrome do Intestino Irritável",26,5,False,Omeprazol,True,Unimed Nacional,6,True,Sem Alteração Significativa,Cateterismo Cardíaco
+525,40,Feminino,Gastroenterite Aguda,Doença de Alzheimer,22,3,True,"Fluoxetina, Sinvastatina, Aspirina",False,Unimed Total,9,True,Estável,Hemodiálise
+526,80,Feminino,Cálculo Renal,Nenhuma,16,3,True,Nenhuma,True,Unimed Pleno,10,True,Estável,Nenhum
+527,70,Masculino,Infecção do Trato Urinário,Nenhuma,16,4,True,Nenhuma,True,Unimed Pleno,4,True,Melhora,"Cateterismo Cardíaco, Biopsia"
+528,50,Masculino,Ansiedade,Obesidade,18,2,True,Insulina,True,Unimed Multi,0,True,Estável,"Angioplastia, Fisioterapia Respiratória"
+529,50,Masculino,Câncer de Próstata,Doença de Alzheimer,25,1,False,Aspirina,False,Unimed Multi,3,False,Estável,"Angioplastia, Biopsia"
+530,47,Masculino,Câncer de Próstata,Nenhuma,16,4,False,"Insulina, Fluoxetina, Sertralina",False,Unimed Essencial,3,False,Sem Alteração Significativa,Nenhum
+531,65,Feminino,Doença Arterial Coronariana,"Doença de Parkinson, HIV/AIDS, Doença Hepática",22,4,True,Fluoxetina,False,Unimed Nacional,2,True,Sem Alteração Significativa,Angioplastia
+532,75,Masculino,Hipertensão Essencial,Nenhuma,20,0,False,Nenhuma,True,Unimed Nacional,3,True,Estável,Nenhum
+533,48,Masculino,Cálculo Renal,Doença de Parkinson,27,3,True,Nenhuma,True,Unimed Multi,5,True,Sem Alteração Significativa,Nenhum
+534,33,Feminino,Hipertensão Essencial,"Demência, Doença de Alzheimer, Doença Hepática",22,1,False,"Paracetamol, Fluoxetina",True,Unimed Total,8,True,Sem Alteração Significativa,Nenhum
+535,66,Masculino,Ansiedade,Nenhuma,21,1,False,Nenhuma,False,Unimed Total,6,True,Estável,Nenhum
+536,44,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Alzheimer, HIV/AIDS",5,1,False,Nenhuma,False,Unimed Nacional,10,True,Estável,Endoscopia
+537,22,Feminino,Acidente Vascular Cerebral,Obesidade,20,3,False,Nenhuma,False,Unimed Multi,3,False,Estável,Endoscopia
+538,69,Masculino,Pneumonia,Demência,14,2,True,"Salbutamol, Sertralina",False,Unimed Total,8,True,Melhora,Nenhum
+539,63,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,6,5,False,Nenhuma,False,Unimed Essencial,4,False,Estável,Nenhum
+540,88,Feminino,Insuficiência Cardíaca Congestiva,"Doença Hepática, Demência, HIV/AIDS",13,3,False,Metformina,False,Unimed Essencial,9,True,Sem Alteração Significativa,Hemodiálise
+541,31,Masculino,Infecção do Trato Urinário,Nenhuma,5,3,False,"Insulina, Omeprazol, Aspirina",False,Unimed Total,7,True,Sem Alteração Significativa,Nenhum
+542,27,Feminino,Fratura de Fêmur,"Fibromialgia, Doença Renal Crônica",13,0,False,Nenhuma,False,Unimed Total,5,True,Piora,Angioplastia
+543,31,Feminino,Ansiedade,"Doença Hepática, Doença de Parkinson, Fibromialgia",25,2,False,"Metformina, Fluoxetina, Insulina",True,Unimed Nacional,6,True,Melhora,Nenhum
+544,57,Masculino,Doença Arterial Coronariana,"Síndrome do Intestino Irritável, Demência",28,4,False,"Nenhuma, Furosemida, Sertralina",False,Unimed Essencial,9,True,Melhora,Cirurgia de Catarata
+545,28,Feminino,Fratura de Fêmur,"Doença de Alzheimer, Doença Hepática, Obesidade",14,4,False,"Paracetamol, Omeprazol",True,Unimed Multi,1,True,Piora,Cateterismo Cardíaco
+546,19,Feminino,Diabetes Mellitus Tipo 2,"Obesidade, Doença de Parkinson",16,1,True,Nenhuma,False,Unimed Essencial,3,True,Sem Alteração Significativa,Endoscopia
+547,62,Masculino,Apneia do Sono,Fibromialgia,12,1,False,Insulina,False,Unimed Multi,10,True,Sem Alteração Significativa,Nenhum
+548,43,Masculino,Insuficiência Cardíaca Congestiva,Obesidade,22,2,True,"Paracetamol, Losartana, Fluoxetina",False,Unimed Total,0,False,Melhora,"Cateterismo Cardíaco, Endoscopia"
+549,20,Feminino,Hipertensão Essencial,Demência,8,3,True,Nenhuma,False,Unimed Essencial,2,False,Melhora,Cirurgia de Apendicectomia
+550,54,Masculino,Fratura de Fêmur,Nenhuma,5,4,False,Salbutamol,False,Unimed Multi,4,False,Estável,"Cirurgia de Apendicectomia, Cirurgia de Catarata"
+551,24,Feminino,Câncer de Próstata,"Fibromialgia, HIV/AIDS",22,1,False,"Furosemida, Losartana, Sertralina",False,Unimed Pleno,0,False,Sem Alteração Significativa,Nenhum
+552,72,Masculino,Gastroenterite Aguda,Nenhuma,14,5,False,"Nenhuma, Metformina",True,Unimed Pleno,9,False,Estável,Nenhum
+553,88,Feminino,Câncer de Próstata,Nenhuma,30,3,True,"Furosemida, Omeprazol",True,Unimed Total,6,True,Piora,"Cateterismo Cardíaco, Cirurgia de Catarata"
+554,90,Feminino,Pneumonia,Nenhuma,15,1,False,"Paracetamol, Losartana",False,Unimed Pleno,5,True,Melhora,Nenhum
+555,56,Feminino,Depressão,Nenhuma,7,5,True,"Aspirina, Nenhuma",True,Unimed Total,5,True,Melhora,Cirurgia de Apendicectomia
+556,51,Feminino,Doença Arterial Coronariana,Doença Hepática,8,0,False,Nenhuma,False,Unimed Essencial,7,True,Piora,Nenhum
+557,84,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,23,0,True,Nenhuma,False,Unimed Nacional,2,True,Estável,Nenhum
+558,58,Masculino,Pneumonia,"Doença Hepática, Doença Renal Crônica",9,1,False,Nenhuma,False,Unimed Total,0,False,Melhora,Cirurgia de Catarata
+559,36,Feminino,Gastroenterite Aguda,Nenhuma,15,2,False,Metformina,False,Unimed Essencial,4,False,Estável,Cirurgia de Apendicectomia
+560,71,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Síndrome do Intestino Irritável, Demência, Doença de Alzheimer",13,4,False,Nenhuma,False,Unimed Nacional,7,True,Melhora,"Cirurgia de Apendicectomia, Cateterismo Cardíaco"
+561,52,Feminino,Artrite Reumatoide,"Obesidade, HIV/AIDS",13,0,False,"Furosemida, Insulina",True,Unimed Multi,9,True,Sem Alteração Significativa,"Hemodiálise, Angioplastia"
+562,24,Masculino,Cálculo Renal,Nenhuma,18,1,True,Nenhuma,False,Unimed Essencial,0,True,Estável,Nenhum
+563,83,Masculino,Insuficiência Cardíaca Congestiva,"Doença Renal Crônica, HIV/AIDS, Doença de Parkinson",24,5,False,Nenhuma,True,Unimed Multi,4,False,Estável,Hemodiálise
+564,77,Masculino,Asma,Doença Renal Crônica,20,0,False,"Aspirina, Sinvastatina, Losartana",False,Unimed Essencial,9,True,Piora,Nenhum
+565,29,Feminino,Insuficiência Cardíaca Congestiva,HIV/AIDS,21,1,True,"Sinvastatina, Paracetamol, Insulina",False,Unimed Multi,5,True,Sem Alteração Significativa,Nenhum
+566,25,Feminino,Pneumonia,Nenhuma,8,4,False,Nenhuma,True,Unimed Pleno,3,False,Piora,Nenhum
+567,31,Feminino,Cálculo Renal,Doença Hepática,23,5,True,Nenhuma,False,Unimed Total,7,True,Melhora,"Angioplastia, Biopsia"
+568,73,Feminino,Asma,Nenhuma,23,3,True,Nenhuma,True,Unimed Pleno,0,False,Melhora,Fisioterapia Respiratória
+569,70,Feminino,Gastroenterite Aguda,"Doença Renal Crônica, Síndrome do Intestino Irritável, Doença Hepática",14,0,False,"Salbutamol, Fluoxetina",False,Unimed Nacional,9,True,Estável,Endoscopia
+570,80,Feminino,Ansiedade,Doença de Alzheimer,16,0,False,Nenhuma,False,Unimed Essencial,8,True,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+571,70,Feminino,Gastroenterite Aguda,"HIV/AIDS, Doença de Alzheimer, Fibromialgia",23,4,True,"Sinvastatina, Nenhuma",True,Unimed Essencial,0,True,Piora,Hemodiálise
+572,56,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença de Alzheimer,13,2,False,Nenhuma,True,Unimed Total,6,True,Piora,Angioplastia
+573,26,Feminino,Infecção do Trato Urinário,"Fibromialgia, HIV/AIDS",5,2,False,Metformina,False,Unimed Pleno,3,False,Estável,Nenhum
+574,22,Feminino,Artrite Reumatoide,"HIV/AIDS, Doença Hepática, Doença de Alzheimer",24,0,True,Nenhuma,False,Unimed Nacional,4,False,Estável,Nenhum
+575,59,Feminino,Câncer de Próstata,Nenhuma,16,0,True,"Insulina, Furosemida, Fluoxetina",False,Unimed Pleno,10,True,Sem Alteração Significativa,"Hemodiálise, Colonoscopia"
+576,62,Feminino,Cálculo Renal,Nenhuma,8,3,False,Sinvastatina,True,Unimed Pleno,3,False,Melhora,Cirurgia de Apendicectomia
+577,25,Feminino,Apneia do Sono,Nenhuma,20,4,True,"Omeprazol, Salbutamol",False,Unimed Pleno,4,True,Estável,Nenhum
+578,73,Masculino,Câncer de Próstata,Nenhuma,29,4,True,"Insulina, Sertralina",False,Unimed Nacional,5,False,Melhora,Nenhum
+579,29,Feminino,Câncer de Próstata,"Demência, Fibromialgia",27,5,True,"Aspirina, Metformina, Sertralina",True,Unimed Pleno,10,True,Melhora,Nenhum
+580,82,Feminino,Fratura de Fêmur,"Doença de Parkinson, Doença Renal Crônica, Síndrome do Intestino Irritável",29,5,True,Nenhuma,False,Unimed Pleno,3,True,Estável,Colonoscopia
+581,36,Masculino,Asma,Nenhuma,4,1,False,"Aspirina, Metformina",False,Unimed Total,3,False,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+582,83,Feminino,Fratura de Fêmur,Nenhuma,12,5,False,"Losartana, Sertralina, Aspirina",False,Unimed Essencial,2,False,Sem Alteração Significativa,Nenhum
+583,24,Feminino,Acidente Vascular Cerebral,Nenhuma,25,1,True,Salbutamol,False,Unimed Nacional,2,False,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+584,86,Feminino,Acidente Vascular Cerebral,"Síndrome do Intestino Irritável, Doença Hepática",18,4,True,Nenhuma,True,Unimed Nacional,0,True,Estável,"Hemodiálise, Angioplastia"
+585,55,Feminino,Cálculo Renal,Fibromialgia,5,4,False,"Salbutamol, Metformina",True,Unimed Multi,9,True,Sem Alteração Significativa,"Hemodiálise, Fisioterapia Respiratória"
+586,47,Masculino,Acidente Vascular Cerebral,"Doença de Parkinson, HIV/AIDS",25,1,False,Nenhuma,True,Unimed Multi,10,False,Estável,Cateterismo Cardíaco
+587,45,Feminino,Asma,Nenhuma,14,1,False,Furosemida,False,Unimed Nacional,1,True,Estável,Cirurgia de Apendicectomia
+588,42,Masculino,Cálculo Renal,Nenhuma,1,3,False,"Salbutamol, Omeprazol, Insulina",False,Unimed Nacional,6,True,Sem Alteração Significativa,Nenhum
+589,89,Masculino,Artrite Reumatoide,Nenhuma,12,4,True,"Fluoxetina, Metformina",True,Unimed Nacional,8,True,Piora,Nenhum
+590,47,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,15,2,False,Omeprazol,True,Unimed Nacional,1,False,Piora,Nenhum
+591,47,Feminino,Hipertensão Essencial,Nenhuma,19,5,False,Aspirina,False,Unimed Pleno,3,False,Piora,Hemodiálise
+592,37,Feminino,Asma,"Fibromialgia, Doença Renal Crônica",24,2,True,Sinvastatina,True,Unimed Multi,0,False,Sem Alteração Significativa,Angioplastia
+593,44,Masculino,Cálculo Renal,Nenhuma,8,5,False,"Omeprazol, Losartana, Salbutamol",True,Unimed Nacional,7,True,Piora,Nenhum
+594,57,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Síndrome do Intestino Irritável,6,0,False,"Salbutamol, Furosemida",False,Unimed Multi,9,False,Piora,Nenhum
+595,62,Feminino,Câncer de Próstata,Nenhuma,12,1,False,Nenhuma,False,Unimed Total,10,False,Piora,Colonoscopia
+596,28,Masculino,Câncer de Mama,Nenhuma,28,1,True,"Sinvastatina, Nenhuma",True,Unimed Nacional,4,True,Estável,Nenhum
+597,35,Feminino,Acidente Vascular Cerebral,Doença de Parkinson,15,4,False,"Fluoxetina, Sertralina",False,Unimed Essencial,10,True,Melhora,Endoscopia
+598,83,Feminino,Ansiedade,"Demência, Obesidade",16,5,True,Nenhuma,True,Unimed Essencial,2,True,Melhora,Biopsia
+599,71,Masculino,Acidente Vascular Cerebral,"Doença de Parkinson, Síndrome do Intestino Irritável, Doença Renal Crônica",27,4,True,"Omeprazol, Paracetamol, Furosemida",True,Unimed Nacional,1,True,Melhora,Endoscopia
+600,52,Masculino,Câncer de Próstata,Nenhuma,1,3,False,"Sertralina, Paracetamol",True,Unimed Total,7,False,Piora,Cateterismo Cardíaco
+601,43,Masculino,Câncer de Próstata,"Fibromialgia, Demência",15,2,False,"Metformina, Omeprazol, Sinvastatina",False,Unimed Pleno,1,False,Estável,Nenhum
+602,50,Masculino,Depressão,Nenhuma,8,3,False,Nenhuma,True,Unimed Total,7,True,Estável,Angioplastia
+603,48,Feminino,Artrite Reumatoide,"Doença Renal Crônica, Doença Hepática",23,4,False,Furosemida,True,Unimed Essencial,7,True,Piora,Nenhum
+604,60,Masculino,Diabetes Mellitus Tipo 2,HIV/AIDS,10,1,False,Nenhuma,False,Unimed Multi,2,False,Estável,Nenhum
+605,79,Feminino,Fratura de Fêmur,Doença Hepática,12,0,True,"Nenhuma, Fluoxetina, Losartana",False,Unimed Multi,1,True,Sem Alteração Significativa,Hemodiálise
+606,88,Feminino,Infecção do Trato Urinário,Nenhuma,29,2,False,"Aspirina, Sertralina",False,Unimed Nacional,0,True,Sem Alteração Significativa,Nenhum
+607,49,Feminino,Cálculo Renal,HIV/AIDS,4,4,False,Nenhuma,False,Unimed Multi,2,False,Sem Alteração Significativa,Nenhum
+608,32,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,9,4,False,Nenhuma,True,Unimed Pleno,7,False,Melhora,"Cirurgia de Catarata, Angioplastia"
+609,34,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,19,1,False,Sertralina,False,Unimed Nacional,4,False,Melhora,Nenhum
+610,25,Masculino,Ansiedade,"Doença Renal Crônica, HIV/AIDS",24,4,False,Insulina,False,Unimed Pleno,3,False,Estável,Nenhum
+611,20,Masculino,Pneumonia,Nenhuma,5,1,False,"Sinvastatina, Furosemida",False,Unimed Multi,4,True,Piora,Cirurgia de Catarata
+612,28,Feminino,Insuficiência Cardíaca Congestiva,"Demência, Fibromialgia, Doença de Parkinson",2,1,False,"Aspirina, Omeprazol, Metformina",False,Unimed Nacional,7,True,Piora,Nenhum
+613,59,Feminino,Acidente Vascular Cerebral,HIV/AIDS,18,0,False,"Fluoxetina, Aspirina",False,Unimed Multi,3,False,Piora,Nenhum
+614,80,Masculino,Cálculo Renal,Doença de Parkinson,7,1,False,Insulina,False,Unimed Total,4,False,Melhora,Nenhum
+615,80,Feminino,Diabetes Mellitus Tipo 2,"Doença de Parkinson, Doença Renal Crônica, HIV/AIDS",14,1,False,Nenhuma,False,Unimed Pleno,7,False,Melhora,Nenhum
+616,66,Feminino,Câncer de Mama,Demência,12,0,True,Nenhuma,False,Unimed Essencial,3,False,Sem Alteração Significativa,Cirurgia de Catarata
+617,79,Feminino,Cálculo Renal,Nenhuma,15,0,True,"Furosemida, Salbutamol",True,Unimed Nacional,2,False,Piora,Nenhum
+618,69,Feminino,Doença Arterial Coronariana,"Doença Hepática, Demência",17,3,True,Nenhuma,True,Unimed Essencial,10,True,Piora,"Cirurgia de Catarata, Cirurgia de Apendicectomia"
+619,40,Masculino,Depressão,"Doença de Alzheimer, Doença Hepática",29,2,True,Paracetamol,True,Unimed Essencial,5,False,Sem Alteração Significativa,Hemodiálise
+620,64,Masculino,Hipertensão Essencial,Nenhuma,26,3,True,Aspirina,False,Unimed Essencial,9,True,Melhora,Nenhum
+621,84,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Parkinson, Doença Hepática, Doença de Alzheimer",19,5,False,Nenhuma,False,Unimed Nacional,9,False,Piora,Nenhum
+622,77,Feminino,Asma,"Doença Renal Crônica, Fibromialgia",12,4,True,"Salbutamol, Paracetamol, Fluoxetina",True,Unimed Essencial,9,True,Piora,Nenhum
+623,40,Feminino,Pneumonia,"Doença Renal Crônica, Fibromialgia",14,0,False,"Salbutamol, Insulina, Losartana",False,Unimed Total,8,True,Sem Alteração Significativa,Nenhum
+624,61,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Doença de Parkinson, Doença de Alzheimer",11,4,False,"Furosemida, Insulina, Omeprazol",False,Unimed Nacional,5,False,Sem Alteração Significativa,Nenhum
+625,18,Feminino,Depressão,"Doença de Parkinson, Doença Renal Crônica",3,3,False,"Sertralina, Losartana",True,Unimed Essencial,9,True,Melhora,"Angioplastia, Fisioterapia Respiratória"
+626,61,Masculino,Gastroenterite Aguda,Nenhuma,5,0,False,Nenhuma,False,Unimed Nacional,7,True,Sem Alteração Significativa,Nenhum
+627,77,Masculino,Hipertensão Essencial,Doença de Alzheimer,1,4,False,Nenhuma,False,Unimed Nacional,2,False,Piora,Angioplastia
+628,27,Feminino,Insuficiência Cardíaca Congestiva,Síndrome do Intestino Irritável,29,4,True,"Salbutamol, Insulina",False,Unimed Nacional,8,True,Sem Alteração Significativa,"Colonoscopia, Hemodiálise"
+629,22,Feminino,Gastroenterite Aguda,"Demência, Doença Hepática",21,2,True,"Fluoxetina, Sinvastatina",False,Unimed Multi,2,True,Piora,Cirurgia de Apendicectomia
+630,23,Masculino,Infecção do Trato Urinário,"HIV/AIDS, Fibromialgia",15,5,False,"Aspirina, Sertralina",True,Unimed Total,7,True,Piora,Nenhum
+631,73,Feminino,Hipertensão Essencial,"Obesidade, Doença Renal Crônica",12,0,True,"Salbutamol, Sinvastatina, Aspirina",True,Unimed Multi,1,True,Estável,Nenhum
+632,86,Feminino,Diabetes Mellitus Tipo 2,"Doença de Parkinson, Fibromialgia",28,2,True,"Insulina, Omeprazol",False,Unimed Nacional,9,False,Sem Alteração Significativa,Nenhum
+633,69,Feminino,Artrite Reumatoide,"Doença Renal Crônica, Doença Hepática",21,4,True,Furosemida,True,Unimed Essencial,8,True,Estável,"Endoscopia, Colonoscopia"
+634,18,Feminino,Infecção do Trato Urinário,Nenhuma,6,0,False,"Losartana, Fluoxetina, Metformina",False,Unimed Nacional,3,False,Piora,Nenhum
+635,46,Feminino,Diabetes Mellitus Tipo 2,Doença de Parkinson,30,1,True,Nenhuma,False,Unimed Nacional,9,True,Piora,"Biopsia, Fisioterapia Respiratória"
+636,27,Feminino,Hipertensão Essencial,Doença Renal Crônica,29,0,True,"Losartana, Sinvastatina, Salbutamol",False,Unimed Multi,9,False,Estável,Nenhum
+637,59,Masculino,Hipertensão Essencial,"Demência, Doença Renal Crônica, Obesidade",4,1,False,"Aspirina, Sinvastatina, Omeprazol",True,Unimed Essencial,4,False,Piora,Hemodiálise
+638,23,Feminino,Câncer de Próstata,"Demência, Fibromialgia, Obesidade",20,5,False,Nenhuma,False,Unimed Total,6,False,Piora,Nenhum
+639,56,Feminino,Depressão,Fibromialgia,15,2,False,"Aspirina, Metformina, Sinvastatina",False,Unimed Multi,1,False,Estável,Nenhum
+640,40,Masculino,Infecção do Trato Urinário,Doença Renal Crônica,27,0,True,"Furosemida, Losartana, Paracetamol",False,Unimed Essencial,5,False,Piora,Endoscopia
+641,33,Masculino,Infecção do Trato Urinário,Nenhuma,26,2,True,"Losartana, Furosemida",False,Unimed Essencial,4,True,Estável,Biopsia
+642,52,Feminino,Infecção do Trato Urinário,Nenhuma,2,1,False,"Fluoxetina, Metformina, Furosemida",False,Unimed Essencial,2,True,Melhora,Colonoscopia
+643,75,Masculino,Doença Arterial Coronariana,Doença de Parkinson,17,3,True,Aspirina,True,Unimed Total,7,False,Estável,Nenhum
+644,43,Masculino,Gastroenterite Aguda,"Obesidade, Doença de Parkinson",19,2,True,"Losartana, Insulina",False,Unimed Total,1,True,Melhora,Nenhum
+645,22,Feminino,Doença Arterial Coronariana,Fibromialgia,13,3,False,"Fluoxetina, Furosemida, Losartana",True,Unimed Total,10,True,Sem Alteração Significativa,Cateterismo Cardíaco
+646,38,Feminino,Gastroenterite Aguda,HIV/AIDS,18,0,True,"Sertralina, Sinvastatina",False,Unimed Nacional,1,False,Sem Alteração Significativa,Nenhum
+647,82,Masculino,Apneia do Sono,Nenhuma,28,2,True,Nenhuma,True,Unimed Total,6,True,Sem Alteração Significativa,"Fisioterapia Respiratória, Cirurgia de Apendicectomia"
+648,67,Feminino,Depressão,"HIV/AIDS, Síndrome do Intestino Irritável, Doença Hepática",30,1,True,"Sinvastatina, Salbutamol",False,Unimed Total,8,False,Piora,Hemodiálise
+649,81,Feminino,Hipertensão Essencial,Nenhuma,7,3,True,"Aspirina, Omeprazol",False,Unimed Pleno,2,True,Estável,Nenhum
+650,87,Masculino,Diabetes Mellitus Tipo 2,"Síndrome do Intestino Irritável, Doença Renal Crônica, Doença de Parkinson",8,4,True,Fluoxetina,True,Unimed Multi,7,True,Sem Alteração Significativa,Hemodiálise
+651,49,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,24,5,False,"Furosemida, Sinvastatina",True,Unimed Nacional,2,False,Estável,Nenhum
+652,65,Masculino,Cálculo Renal,Nenhuma,29,5,False,"Paracetamol, Omeprazol",False,Unimed Pleno,5,False,Estável,Cirurgia de Apendicectomia
+653,32,Feminino,Pneumonia,HIV/AIDS,18,5,True,"Furosemida, Salbutamol",True,Unimed Nacional,4,True,Estável,Colonoscopia
+654,56,Masculino,Cálculo Renal,Obesidade,15,2,False,Omeprazol,False,Unimed Nacional,3,True,Melhora,Nenhum
+655,34,Masculino,Ansiedade,Nenhuma,28,4,False,"Omeprazol, Paracetamol, Insulina",True,Unimed Nacional,6,False,Sem Alteração Significativa,"Cirurgia de Catarata, Biopsia"
+656,33,Masculino,Gastroenterite Aguda,Nenhuma,9,5,False,Nenhuma,True,Unimed Pleno,10,False,Melhora,"Biopsia, Angioplastia"
+657,87,Feminino,Pneumonia,Nenhuma,17,3,True,Paracetamol,False,Unimed Essencial,9,True,Estável,Nenhum
+658,30,Masculino,Fratura de Fêmur,"Síndrome do Intestino Irritável, Doença Hepática",9,1,True,"Losartana, Furosemida",True,Unimed Pleno,0,True,Estável,Cirurgia de Catarata
+659,33,Feminino,Câncer de Próstata,"Doença de Alzheimer, Obesidade, Síndrome do Intestino Irritável",27,4,True,"Furosemida, Nenhuma, Insulina",False,Unimed Nacional,10,True,Melhora,Nenhum
+660,59,Masculino,Cálculo Renal,"Doença de Parkinson, Síndrome do Intestino Irritável",8,3,False,Nenhuma,False,Unimed Multi,1,True,Melhora,Nenhum
+661,48,Masculino,Infecção do Trato Urinário,"HIV/AIDS, Síndrome do Intestino Irritável, Doença de Alzheimer",5,4,False,Nenhuma,False,Unimed Multi,6,False,Piora,Nenhum
+662,40,Masculino,Artrite Reumatoide,Nenhuma,16,1,True,Losartana,True,Unimed Total,6,True,Piora,"Colonoscopia, Fisioterapia Respiratória"
+663,34,Masculino,Hipertensão Essencial,Doença Renal Crônica,4,2,False,"Metformina, Paracetamol",True,Unimed Pleno,10,True,Sem Alteração Significativa,Nenhum
+664,42,Masculino,Depressão,Nenhuma,22,5,False,"Metformina, Aspirina",False,Unimed Pleno,9,False,Estável,"Cirurgia de Catarata, Endoscopia"
+665,21,Feminino,Câncer de Mama,Nenhuma,5,1,False,Nenhuma,True,Unimed Pleno,3,False,Melhora,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+666,57,Feminino,Apneia do Sono,HIV/AIDS,10,2,False,"Fluoxetina, Omeprazol",True,Unimed Essencial,0,False,Sem Alteração Significativa,"Cirurgia de Catarata, Fisioterapia Respiratória"
+667,52,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,24,3,True,"Metformina, Nenhuma, Losartana",False,Unimed Pleno,0,True,Sem Alteração Significativa,Nenhum
+668,23,Masculino,Ansiedade,Nenhuma,6,2,False,"Salbutamol, Furosemida",False,Unimed Nacional,4,False,Sem Alteração Significativa,Nenhum
+669,36,Feminino,Ansiedade,Nenhuma,24,5,False,"Fluoxetina, Aspirina, Losartana",False,Unimed Nacional,10,True,Piora,Hemodiálise
+670,62,Masculino,Câncer de Mama,Nenhuma,26,2,True,Nenhuma,True,Unimed Pleno,4,True,Piora,Nenhum
+671,32,Feminino,Acidente Vascular Cerebral,"Doença Renal Crônica, HIV/AIDS, Síndrome do Intestino Irritável",13,4,False,"Sertralina, Metformina, Losartana",False,Unimed Nacional,4,True,Estável,Nenhum
+672,60,Masculino,Cálculo Renal,Doença de Parkinson,28,0,False,Nenhuma,False,Unimed Nacional,7,True,Estável,Nenhum
+673,34,Feminino,Câncer de Mama,Nenhuma,25,0,False,Salbutamol,False,Unimed Pleno,7,True,Melhora,Hemodiálise
+674,33,Feminino,Diabetes Mellitus Tipo 2,"Síndrome do Intestino Irritável, Doença de Alzheimer",7,1,False,"Insulina, Paracetamol, Furosemida",True,Unimed Essencial,9,True,Piora,Nenhum
+675,30,Feminino,Depressão,Nenhuma,21,0,False,"Metformina, Paracetamol",False,Unimed Essencial,10,False,Piora,"Endoscopia, Hemodiálise"
+676,64,Masculino,Doença Arterial Coronariana,"Demência, Obesidade, Doença Hepática",6,1,False,"Furosemida, Aspirina, Sinvastatina",True,Unimed Essencial,4,True,Estável,Nenhum
+677,58,Masculino,Depressão,Nenhuma,1,2,False,"Salbutamol, Furosemida, Fluoxetina",True,Unimed Nacional,8,True,Sem Alteração Significativa,Nenhum
+678,19,Masculino,Asma,"Doença de Alzheimer, Obesidade",27,5,False,Metformina,False,Unimed Pleno,6,True,Estável,Nenhum
+679,19,Feminino,Asma,Doença Hepática,28,1,True,"Omeprazol, Sinvastatina, Salbutamol",True,Unimed Essencial,9,True,Estável,"Cirurgia de Catarata, Cateterismo Cardíaco"
+680,20,Masculino,Asma,Fibromialgia,3,1,False,Nenhuma,False,Unimed Multi,7,True,Piora,Nenhum
+681,79,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,24,4,True,"Sertralina, Furosemida, Metformina",True,Unimed Multi,6,True,Estável,Nenhum
+682,19,Feminino,Infecção do Trato Urinário,"Fibromialgia, Obesidade",16,5,False,"Sertralina, Insulina",True,Unimed Essencial,4,False,Piora,Cirurgia de Apendicectomia
+683,90,Masculino,Câncer de Mama,Nenhuma,6,1,False,Sinvastatina,False,Unimed Essencial,6,True,Estável,Nenhum
+684,53,Feminino,Acidente Vascular Cerebral,Nenhuma,15,3,False,"Aspirina, Metformina",True,Unimed Total,2,False,Piora,Angioplastia
+685,85,Masculino,Apneia do Sono,"Fibromialgia, HIV/AIDS, Doença Renal Crônica",16,3,False,Paracetamol,True,Unimed Total,4,False,Sem Alteração Significativa,"Fisioterapia Respiratória, Endoscopia"
+686,38,Masculino,Ansiedade,HIV/AIDS,30,3,True,Nenhuma,False,Unimed Nacional,1,True,Piora,Cateterismo Cardíaco
+687,33,Feminino,Diabetes Mellitus Tipo 2,"Doença Hepática, Síndrome do Intestino Irritável",11,4,True,"Omeprazol, Nenhuma, Sertralina",True,Unimed Multi,8,True,Estável,"Hemodiálise, Cateterismo Cardíaco"
+688,69,Masculino,Pneumonia,Doença de Alzheimer,6,1,True,Nenhuma,False,Unimed Multi,6,True,Piora,"Cirurgia de Catarata, Angioplastia"
+689,85,Masculino,Fratura de Fêmur,"HIV/AIDS, Síndrome do Intestino Irritável",28,5,False,"Sertralina, Metformina, Aspirina",False,Unimed Multi,4,False,Piora,Cirurgia de Catarata
+690,30,Masculino,Ansiedade,"HIV/AIDS, Doença de Parkinson",4,3,True,"Furosemida, Insulina",True,Unimed Essencial,8,True,Melhora,Nenhum
+691,39,Masculino,Pneumonia,Doença Renal Crônica,29,5,True,Nenhuma,True,Unimed Total,7,True,Melhora,Cateterismo Cardíaco
+692,89,Feminino,Câncer de Mama,Nenhuma,16,0,True,Nenhuma,True,Unimed Pleno,3,False,Piora,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+693,21,Feminino,Pneumonia,Nenhuma,14,2,False,"Losartana, Sinvastatina",False,Unimed Essencial,7,False,Piora,Fisioterapia Respiratória
+694,62,Masculino,Gastroenterite Aguda,"Obesidade, HIV/AIDS",25,5,True,Furosemida,True,Unimed Multi,6,True,Melhora,"Colonoscopia, Angioplastia"
+695,84,Masculino,Câncer de Próstata,Nenhuma,6,4,True,Nenhuma,True,Unimed Multi,0,False,Melhora,Hemodiálise
+696,41,Masculino,Infecção do Trato Urinário,Nenhuma,28,0,True,Sinvastatina,True,Unimed Nacional,1,True,Melhora,Hemodiálise
+697,58,Feminino,Depressão,HIV/AIDS,10,1,True,Nenhuma,False,Unimed Total,5,True,Sem Alteração Significativa,"Hemodiálise, Endoscopia"
+698,43,Masculino,Doença Arterial Coronariana,"Doença de Parkinson, Demência",28,3,True,"Sinvastatina, Paracetamol, Sertralina",False,Unimed Total,5,True,Sem Alteração Significativa,"Colonoscopia, Cateterismo Cardíaco"
+699,83,Feminino,Doença Arterial Coronariana,Doença de Alzheimer,8,5,False,"Nenhuma, Sinvastatina",False,Unimed Total,9,True,Sem Alteração Significativa,Nenhum
+700,66,Feminino,Doença Arterial Coronariana,"Demência, Fibromialgia, HIV/AIDS",21,2,False,Nenhuma,True,Unimed Nacional,7,False,Melhora,Nenhum
+701,34,Masculino,Câncer de Mama,Nenhuma,27,1,True,Omeprazol,False,Unimed Total,8,False,Estável,Nenhum
+702,29,Feminino,Artrite Reumatoide,Síndrome do Intestino Irritável,9,0,False,Nenhuma,False,Unimed Total,2,False,Melhora,Cirurgia de Catarata
+703,56,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença Renal Crônica,4,2,True,"Insulina, Sertralina, Sinvastatina",False,Unimed Pleno,10,True,Estável,Nenhum
+704,43,Masculino,Apneia do Sono,Nenhuma,19,4,False,"Fluoxetina, Insulina, Sinvastatina",True,Unimed Total,9,True,Estável,Nenhum
+705,35,Masculino,Gastroenterite Aguda,Obesidade,5,4,False,Salbutamol,False,Unimed Multi,8,True,Estável,Nenhum
+706,82,Masculino,Câncer de Próstata,"HIV/AIDS, Demência, Doença Hepática",16,0,True,Losartana,True,Unimed Total,3,True,Estável,Cirurgia de Catarata
+707,28,Masculino,Doença Arterial Coronariana,"Doença Hepática, Doença Renal Crônica, Doença de Parkinson",20,0,True,"Omeprazol, Sinvastatina, Furosemida",False,Unimed Nacional,6,True,Estável,Nenhum
+708,58,Masculino,Fratura de Fêmur,"Doença de Parkinson, Fibromialgia",21,5,True,"Losartana, Omeprazol, Salbutamol",True,Unimed Nacional,0,True,Estável,Nenhum
+709,31,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,9,4,False,"Insulina, Metformina, Nenhuma",False,Unimed Total,0,True,Estável,Endoscopia
+710,49,Masculino,Insuficiência Cardíaca Congestiva,"Doença Hepática, Fibromialgia",20,1,True,"Paracetamol, Nenhuma",False,Unimed Multi,4,False,Estável,Nenhum
+711,40,Feminino,Gastroenterite Aguda,"Doença de Parkinson, Síndrome do Intestino Irritável",10,1,False,Aspirina,True,Unimed Total,10,True,Melhora,Cirurgia de Catarata
+712,87,Feminino,Infecção do Trato Urinário,Nenhuma,30,2,False,"Sertralina, Fluoxetina",False,Unimed Nacional,6,True,Piora,Cirurgia de Catarata
+713,40,Feminino,Diabetes Mellitus Tipo 2,Nenhuma,18,2,True,"Aspirina, Salbutamol, Losartana",True,Unimed Pleno,7,False,Melhora,"Colonoscopia, Endoscopia"
+714,21,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Doença Hepática, Obesidade",17,4,False,Aspirina,True,Unimed Total,10,False,Sem Alteração Significativa,"Colonoscopia, Cirurgia de Catarata"
+715,48,Feminino,Infecção do Trato Urinário,Doença Renal Crônica,15,2,False,Nenhuma,False,Unimed Total,9,False,Melhora,Nenhum
+716,19,Masculino,Diabetes Mellitus Tipo 2,Doença de Parkinson,10,0,False,Losartana,True,Unimed Pleno,5,False,Sem Alteração Significativa,Cateterismo Cardíaco
+717,48,Feminino,Infecção do Trato Urinário,Nenhuma,20,5,True,"Sertralina, Aspirina",True,Unimed Nacional,2,True,Estável,"Fisioterapia Respiratória, Colonoscopia"
+718,88,Feminino,Artrite Reumatoide,Nenhuma,27,2,True,"Sinvastatina, Paracetamol",False,Unimed Multi,5,True,Melhora,Nenhum
+719,28,Masculino,Depressão,"Doença de Parkinson, Doença Hepática, Doença Renal Crônica",18,1,False,"Sertralina, Paracetamol, Aspirina",False,Unimed Total,3,True,Piora,Nenhum
+720,54,Feminino,Ansiedade,"Doença de Parkinson, Demência",13,2,False,"Insulina, Losartana, Fluoxetina",False,Unimed Essencial,6,True,Melhora,Nenhum
+721,82,Feminino,Doença Arterial Coronariana,"Síndrome do Intestino Irritável, HIV/AIDS",17,3,True,Nenhuma,True,Unimed Total,0,False,Melhora,Nenhum
+722,78,Masculino,Artrite Reumatoide,Nenhuma,11,0,False,Nenhuma,False,Unimed Nacional,6,True,Piora,Nenhum
+723,58,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Obesidade, Doença Hepática",7,4,False,Sinvastatina,False,Unimed Pleno,6,False,Estável,Cirurgia de Catarata
+724,77,Masculino,Pneumonia,"Obesidade, Fibromialgia, HIV/AIDS",29,5,False,Metformina,True,Unimed Pleno,5,False,Sem Alteração Significativa,"Cateterismo Cardíaco, Cirurgia de Catarata"
+725,45,Masculino,Infecção do Trato Urinário,"Doença de Parkinson, Síndrome do Intestino Irritável, Doença Hepática",18,0,True,Sertralina,False,Unimed Pleno,1,True,Piora,Nenhum
+726,27,Masculino,Ansiedade,Doença Hepática,16,2,True,"Paracetamol, Losartana, Nenhuma",False,Unimed Essencial,3,True,Sem Alteração Significativa,"Cirurgia de Catarata, Hemodiálise"
+727,44,Masculino,Pneumonia,Demência,30,3,True,Nenhuma,False,Unimed Pleno,0,False,Melhora,Nenhum
+728,56,Feminino,Acidente Vascular Cerebral,"Demência, Doença de Alzheimer",28,5,False,"Aspirina, Paracetamol",True,Unimed Total,7,False,Melhora,"Fisioterapia Respiratória, Biopsia"
+729,51,Feminino,Fratura de Fêmur,Nenhuma,8,1,False,Nenhuma,False,Unimed Essencial,10,True,Melhora,Nenhum
+730,29,Masculino,Diabetes Mellitus Tipo 2,"Doença de Alzheimer, Demência",15,1,False,"Insulina, Furosemida",False,Unimed Total,6,True,Sem Alteração Significativa,Nenhum
+731,26,Feminino,Doença Arterial Coronariana,"Doença Hepática, Fibromialgia, Síndrome do Intestino Irritável",23,1,True,"Furosemida, Fluoxetina, Sertralina",False,Unimed Essencial,5,True,Estável,Angioplastia
+732,46,Masculino,Infecção do Trato Urinário,Síndrome do Intestino Irritável,24,2,False,Aspirina,True,Unimed Essencial,0,False,Sem Alteração Significativa,Cirurgia de Catarata
+733,26,Feminino,Câncer de Próstata,Demência,5,2,False,"Salbutamol, Nenhuma, Losartana",True,Unimed Multi,3,False,Estável,Cateterismo Cardíaco
+734,54,Feminino,Hipertensão Essencial,Nenhuma,1,4,False,Nenhuma,False,Unimed Pleno,6,True,Piora,Cirurgia de Catarata
+735,73,Feminino,Asma,Nenhuma,18,3,False,Nenhuma,False,Unimed Essencial,0,False,Estável,Nenhum
+736,39,Masculino,Fratura de Fêmur,Nenhuma,6,1,False,Nenhuma,False,Unimed Total,4,False,Estável,Nenhum
+737,63,Masculino,Apneia do Sono,"Doença de Alzheimer, Síndrome do Intestino Irritável, Fibromialgia",2,5,False,"Paracetamol, Metformina",False,Unimed Total,2,False,Estável,Nenhum
+738,34,Masculino,Cálculo Renal,Doença Hepática,26,2,False,"Sinvastatina, Losartana",False,Unimed Multi,10,False,Sem Alteração Significativa,"Hemodiálise, Cateterismo Cardíaco"
+739,56,Feminino,Hipertensão Essencial,Nenhuma,16,3,True,"Metformina, Insulina, Paracetamol",True,Unimed Essencial,5,False,Sem Alteração Significativa,Angioplastia
+740,51,Masculino,Artrite Reumatoide,Nenhuma,17,3,True,Omeprazol,False,Unimed Pleno,1,True,Sem Alteração Significativa,Fisioterapia Respiratória
+741,23,Masculino,Apneia do Sono,"Doença de Alzheimer, Fibromialgia",17,2,True,"Metformina, Nenhuma",True,Unimed Nacional,3,True,Estável,"Cateterismo Cardíaco, Colonoscopia"
+742,74,Masculino,Ansiedade,Nenhuma,9,0,True,Fluoxetina,False,Unimed Nacional,2,True,Estável,"Cateterismo Cardíaco, Cirurgia de Catarata"
+743,80,Masculino,Artrite Reumatoide,Fibromialgia,1,2,True,"Sertralina, Salbutamol, Paracetamol",False,Unimed Pleno,0,True,Melhora,Endoscopia
+744,28,Masculino,Gastroenterite Aguda,Nenhuma,10,5,False,Sertralina,False,Unimed Essencial,4,True,Sem Alteração Significativa,Nenhum
+745,75,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Fibromialgia",19,1,False,"Losartana, Sertralina, Aspirina",True,Unimed Essencial,2,False,Melhora,Nenhum
+746,82,Feminino,Insuficiência Cardíaca Congestiva,Demência,27,0,False,"Nenhuma, Sinvastatina",False,Unimed Pleno,2,True,Melhora,Angioplastia
+747,53,Feminino,Pneumonia,Obesidade,26,3,True,Paracetamol,False,Unimed Multi,3,False,Melhora,Cirurgia de Apendicectomia
+748,18,Feminino,Depressão,Nenhuma,4,2,False,Nenhuma,False,Unimed Pleno,9,True,Melhora,Cirurgia de Apendicectomia
+749,32,Feminino,Infecção do Trato Urinário,Nenhuma,6,2,False,"Insulina, Nenhuma, Metformina",False,Unimed Multi,6,False,Sem Alteração Significativa,"Colonoscopia, Hemodiálise"
+750,26,Feminino,Artrite Reumatoide,"Doença Hepática, Fibromialgia, Obesidade",5,5,False,"Aspirina, Salbutamol",True,Unimed Pleno,6,True,Piora,Nenhum
+751,18,Feminino,Fratura de Fêmur,Nenhuma,21,0,True,Nenhuma,False,Unimed Pleno,6,True,Melhora,Endoscopia
+752,52,Masculino,Câncer de Próstata,Nenhuma,5,2,False,Nenhuma,True,Unimed Nacional,4,True,Piora,Cirurgia de Catarata
+753,34,Feminino,Depressão,Nenhuma,28,0,True,"Losartana, Nenhuma",False,Unimed Multi,1,False,Estável,"Colonoscopia, Fisioterapia Respiratória"
+754,39,Feminino,Pneumonia,Nenhuma,16,0,True,Metformina,False,Unimed Nacional,5,True,Melhora,Nenhum
+755,62,Feminino,Cálculo Renal,Doença Hepática,7,2,False,"Insulina, Losartana",True,Unimed Essencial,5,False,Melhora,Cirurgia de Catarata
+756,31,Feminino,Ansiedade,"Doença de Alzheimer, Síndrome do Intestino Irritável",23,0,False,"Fluoxetina, Paracetamol, Losartana",False,Unimed Pleno,3,False,Sem Alteração Significativa,Hemodiálise
+757,47,Feminino,Asma,"Demência, HIV/AIDS",9,4,False,Losartana,True,Unimed Essencial,8,True,Piora,Nenhum
+758,49,Feminino,Câncer de Próstata,Doença Hepática,28,0,True,"Omeprazol, Sinvastatina, Insulina",False,Unimed Pleno,3,True,Sem Alteração Significativa,Hemodiálise
+759,84,Masculino,Acidente Vascular Cerebral,"Doença Hepática, Obesidade, Doença de Parkinson",25,5,True,Losartana,False,Unimed Pleno,4,True,Melhora,Nenhum
+760,40,Masculino,Diabetes Mellitus Tipo 2,Síndrome do Intestino Irritável,12,3,False,"Aspirina, Paracetamol, Metformina",True,Unimed Essencial,0,False,Estável,Nenhum
+761,87,Masculino,Artrite Reumatoide,Nenhuma,18,0,False,"Aspirina, Sertralina, Paracetamol",False,Unimed Nacional,6,False,Piora,Nenhum
+762,70,Feminino,Depressão,Nenhuma,27,3,True,Sertralina,True,Unimed Total,1,False,Sem Alteração Significativa,"Angioplastia, Colonoscopia"
+763,43,Masculino,Artrite Reumatoide,Obesidade,18,2,True,"Metformina, Sinvastatina",False,Unimed Essencial,4,True,Melhora,Cateterismo Cardíaco
+764,50,Masculino,Infecção do Trato Urinário,Nenhuma,3,1,False,"Aspirina, Sertralina",False,Unimed Nacional,7,True,Melhora,"Cirurgia de Apendicectomia, Cirurgia de Catarata"
+765,46,Feminino,Insuficiência Cardíaca Congestiva,Doença Renal Crônica,1,1,False,Nenhuma,False,Unimed Pleno,8,False,Sem Alteração Significativa,"Angioplastia, Fisioterapia Respiratória"
+766,34,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,5,3,False,Nenhuma,False,Unimed Essencial,3,False,Estável,Nenhum
+767,34,Masculino,Hipertensão Essencial,"Demência, Obesidade, HIV/AIDS",28,1,False,"Sinvastatina, Fluoxetina",True,Unimed Nacional,8,False,Piora,"Hemodiálise, Angioplastia"
+768,62,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,27,4,False,"Furosemida, Metformina, Losartana",False,Unimed Essencial,9,False,Melhora,"Cateterismo Cardíaco, Angioplastia"
+769,67,Masculino,Câncer de Mama,Nenhuma,29,3,False,"Metformina, Sertralina, Salbutamol",True,Unimed Essencial,9,False,Sem Alteração Significativa,Cateterismo Cardíaco
+770,84,Masculino,Pneumonia,Nenhuma,22,5,False,Omeprazol,False,Unimed Total,5,False,Piora,Nenhum
+771,66,Feminino,Acidente Vascular Cerebral,Doença de Parkinson,20,0,False,Furosemida,False,Unimed Essencial,8,True,Estável,"Hemodiálise, Angioplastia"
+772,57,Masculino,Depressão,Nenhuma,26,1,True,Nenhuma,False,Unimed Multi,7,False,Piora,Nenhum
+773,70,Masculino,Apneia do Sono,"Obesidade, Doença Renal Crônica",9,3,True,"Sertralina, Nenhuma",True,Unimed Essencial,5,True,Estável,"Angioplastia, Cateterismo Cardíaco"
+774,58,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,6,0,False,Nenhuma,False,Unimed Total,8,False,Sem Alteração Significativa,Nenhum
+775,29,Feminino,Hipertensão Essencial,Nenhuma,6,0,False,"Paracetamol, Furosemida, Losartana",False,Unimed Pleno,6,True,Sem Alteração Significativa,Nenhum
+776,44,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),HIV/AIDS,7,5,False,Nenhuma,False,Unimed Essencial,8,True,Melhora,"Endoscopia, Cirurgia de Catarata"
+777,85,Masculino,Cálculo Renal,Nenhuma,12,0,True,"Metformina, Losartana, Aspirina",True,Unimed Total,4,True,Sem Alteração Significativa,Fisioterapia Respiratória
+778,64,Masculino,Câncer de Mama,Síndrome do Intestino Irritável,25,1,True,"Metformina, Sertralina",False,Unimed Multi,6,True,Melhora,"Fisioterapia Respiratória, Cateterismo Cardíaco"
+779,67,Masculino,Acidente Vascular Cerebral,Nenhuma,24,3,True,"Salbutamol, Nenhuma, Losartana",False,Unimed Total,8,True,Sem Alteração Significativa,Nenhum
+780,72,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,6,4,True,"Metformina, Losartana",True,Unimed Multi,0,False,Sem Alteração Significativa,Nenhum
+781,69,Feminino,Fratura de Fêmur,Doença de Parkinson,15,3,True,Nenhuma,True,Unimed Total,6,True,Estável,Biopsia
+782,49,Feminino,Cálculo Renal,"Demência, Doença Hepática",11,1,False,"Metformina, Omeprazol, Aspirina",True,Unimed Nacional,1,False,Melhora,Nenhum
+783,65,Feminino,Hipertensão Essencial,Nenhuma,4,2,False,Omeprazol,False,Unimed Pleno,10,True,Melhora,"Cirurgia de Catarata, Cirurgia de Apendicectomia"
+784,61,Feminino,Gastroenterite Aguda,"Doença de Parkinson, Fibromialgia",6,1,False,Losartana,False,Unimed Nacional,10,False,Estável,Fisioterapia Respiratória
+785,28,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,22,2,False,"Insulina, Omeprazol, Paracetamol",True,Unimed Multi,2,False,Melhora,Nenhum
+786,52,Feminino,Cálculo Renal,"Doença Hepática, Doença de Parkinson",25,3,False,"Paracetamol, Insulina, Omeprazol",False,Unimed Total,4,True,Estável,Nenhum
+787,67,Feminino,Acidente Vascular Cerebral,Nenhuma,15,5,True,Losartana,True,Unimed Pleno,3,False,Sem Alteração Significativa,Cirurgia de Apendicectomia
+788,51,Masculino,Fratura de Fêmur,"HIV/AIDS, Fibromialgia",13,1,False,"Fluoxetina, Omeprazol",False,Unimed Essencial,1,False,Melhora,Nenhum
+789,66,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,29,4,False,Nenhuma,False,Unimed Essencial,10,True,Sem Alteração Significativa,Nenhum
+790,38,Feminino,Cálculo Renal,"Doença de Parkinson, HIV/AIDS",26,5,True,Nenhuma,True,Unimed Essencial,5,True,Piora,Nenhum
+791,58,Feminino,Ansiedade,Demência,8,3,False,Nenhuma,False,Unimed Total,10,False,Piora,Biopsia
+792,63,Masculino,Gastroenterite Aguda,Nenhuma,17,1,False,Aspirina,False,Unimed Total,2,False,Melhora,Nenhum
+793,54,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"HIV/AIDS, Doença Renal Crônica",24,5,False,"Nenhuma, Omeprazol",False,Unimed Pleno,0,False,Melhora,Nenhum
+794,21,Masculino,Artrite Reumatoide,"Fibromialgia, Demência",24,3,True,Nenhuma,True,Unimed Nacional,5,True,Estável,Nenhum
+795,66,Masculino,Insuficiência Cardíaca Congestiva,Doença Hepática,2,1,True,"Sertralina, Aspirina, Nenhuma",False,Unimed Total,8,True,Estável,Nenhum
+796,83,Feminino,Insuficiência Cardíaca Congestiva,Síndrome do Intestino Irritável,5,3,True,Insulina,True,Unimed Essencial,5,False,Piora,"Angioplastia, Biopsia"
+797,57,Masculino,Acidente Vascular Cerebral,Nenhuma,5,3,False,Sinvastatina,False,Unimed Essencial,7,True,Piora,Nenhum
+798,72,Feminino,Hipertensão Essencial,"HIV/AIDS, Doença de Parkinson",24,0,False,"Insulina, Sertralina",True,Unimed Multi,10,True,Melhora,Nenhum
+799,27,Masculino,Artrite Reumatoide,"Obesidade, Doença Hepática",6,2,False,"Nenhuma, Fluoxetina, Salbutamol",False,Unimed Multi,4,False,Melhora,Biopsia
+800,58,Feminino,Fratura de Fêmur,Nenhuma,29,1,True,Nenhuma,True,Unimed Total,3,True,Melhora,Nenhum
+801,68,Feminino,Insuficiência Cardíaca Congestiva,HIV/AIDS,21,2,True,Fluoxetina,False,Unimed Nacional,7,False,Piora,Nenhum
+802,76,Masculino,Gastroenterite Aguda,Nenhuma,1,5,False,Nenhuma,False,Unimed Pleno,6,True,Estável,Nenhum
+803,66,Feminino,Gastroenterite Aguda,"Síndrome do Intestino Irritável, Doença Renal Crônica, Fibromialgia",17,1,False,"Paracetamol, Losartana, Salbutamol",True,Unimed Nacional,3,False,Estável,"Endoscopia, Angioplastia"
+804,19,Feminino,Insuficiência Cardíaca Congestiva,"Doença de Alzheimer, Doença de Parkinson",27,3,True,Losartana,False,Unimed Pleno,6,True,Piora,Fisioterapia Respiratória
+805,48,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,13,2,True,Nenhuma,False,Unimed Essencial,4,True,Estável,Nenhum
+806,50,Feminino,Infecção do Trato Urinário,Demência,9,5,False,Nenhuma,True,Unimed Total,0,False,Estável,Nenhum
+807,79,Masculino,Câncer de Próstata,Nenhuma,24,1,False,Nenhuma,False,Unimed Multi,8,True,Sem Alteração Significativa,"Biopsia, Cirurgia de Apendicectomia"
+808,61,Feminino,Insuficiência Cardíaca Congestiva,"Doença de Parkinson, Doença de Alzheimer",26,4,False,Nenhuma,True,Unimed Nacional,4,False,Estável,Fisioterapia Respiratória
+809,37,Masculino,Gastroenterite Aguda,"HIV/AIDS, Doença Renal Crônica",19,5,True,"Insulina, Nenhuma, Omeprazol",False,Unimed Pleno,0,False,Piora,Nenhum
+810,53,Masculino,Asma,"Síndrome do Intestino Irritável, Demência",23,3,True,Sinvastatina,False,Unimed Essencial,9,True,Sem Alteração Significativa,"Biopsia, Cirurgia de Catarata"
+811,43,Feminino,Artrite Reumatoide,Doença de Parkinson,6,2,False,Insulina,False,Unimed Nacional,5,False,Piora,"Cirurgia de Apendicectomia, Colonoscopia"
+812,21,Feminino,Diabetes Mellitus Tipo 2,Doença Hepática,16,3,False,Nenhuma,False,Unimed Essencial,7,False,Piora,Nenhum
+813,62,Feminino,Fratura de Fêmur,"HIV/AIDS, Obesidade",7,4,False,"Sertralina, Salbutamol",True,Unimed Essencial,4,False,Estável,Hemodiálise
+814,87,Masculino,Doença Arterial Coronariana,Nenhuma,21,2,True,"Sinvastatina, Losartana, Sertralina",False,Unimed Nacional,1,True,Melhora,Nenhum
+815,82,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,19,2,True,"Losartana, Sertralina",True,Unimed Total,0,True,Sem Alteração Significativa,Endoscopia
+816,56,Feminino,Fratura de Fêmur,"Fibromialgia, Doença Hepática",9,2,False,"Sertralina, Salbutamol, Losartana",False,Unimed Essencial,10,True,Estável,Nenhum
+817,21,Feminino,Câncer de Mama,"Doença de Alzheimer, Doença Renal Crônica, Demência",3,2,False,Sinvastatina,False,Unimed Nacional,6,True,Sem Alteração Significativa,Nenhum
+818,44,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença Hepática,18,2,True,Nenhuma,True,Unimed Multi,4,False,Sem Alteração Significativa,"Cateterismo Cardíaco, Cirurgia de Apendicectomia"
+819,74,Feminino,Câncer de Mama,Doença Hepática,15,2,False,Nenhuma,True,Unimed Essencial,0,False,Piora,Colonoscopia
+820,56,Feminino,Câncer de Próstata,HIV/AIDS,28,0,True,"Fluoxetina, Omeprazol",False,Unimed Essencial,7,True,Melhora,"Cirurgia de Apendicectomia, Colonoscopia"
+821,49,Feminino,Asma,Nenhuma,7,3,False,"Fluoxetina, Omeprazol, Insulina",False,Unimed Nacional,7,False,Melhora,Cirurgia de Catarata
+822,77,Masculino,Hipertensão Essencial,Nenhuma,9,0,False,Nenhuma,False,Unimed Multi,9,False,Estável,Hemodiálise
+823,47,Masculino,Diabetes Mellitus Tipo 2,Doença de Parkinson,27,3,False,"Aspirina, Insulina",False,Unimed Total,7,True,Piora,"Biopsia, Cirurgia de Catarata"
+824,87,Feminino,Cálculo Renal,Nenhuma,14,1,True,Nenhuma,False,Unimed Nacional,5,True,Melhora,Cateterismo Cardíaco
+825,36,Masculino,Cálculo Renal,Doença de Alzheimer,20,3,False,"Omeprazol, Fluoxetina, Losartana",True,Unimed Multi,3,False,Melhora,Nenhum
+826,34,Feminino,Gastroenterite Aguda,Síndrome do Intestino Irritável,10,5,False,Nenhuma,False,Unimed Multi,2,False,Melhora,Nenhum
+827,75,Masculino,Acidente Vascular Cerebral,Nenhuma,24,5,True,Nenhuma,True,Unimed Nacional,7,False,Melhora,"Colonoscopia, Hemodiálise"
+828,59,Feminino,Hipertensão Essencial,Doença de Alzheimer,9,2,False,"Furosemida, Salbutamol",False,Unimed Multi,5,False,Melhora,"Cirurgia de Apendicectomia, Fisioterapia Respiratória"
+829,29,Masculino,Doença Arterial Coronariana,"Síndrome do Intestino Irritável, Demência, Doença Hepática",26,4,False,"Salbutamol, Paracetamol, Sertralina",False,Unimed Total,6,True,Estável,"Angioplastia, Fisioterapia Respiratória"
+830,84,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,24,1,True,"Omeprazol, Sertralina",False,Unimed Multi,7,True,Sem Alteração Significativa,Endoscopia
+831,67,Masculino,Cálculo Renal,Doença de Alzheimer,21,3,False,"Paracetamol, Sinvastatina",True,Unimed Multi,0,True,Estável,Cateterismo Cardíaco
+832,79,Feminino,Gastroenterite Aguda,Nenhuma,13,5,True,"Sertralina, Omeprazol",False,Unimed Nacional,4,False,Piora,Biopsia
+833,39,Masculino,Fratura de Fêmur,Nenhuma,4,1,False,Fluoxetina,False,Unimed Nacional,2,False,Melhora,Biopsia
+834,73,Masculino,Câncer de Mama,Nenhuma,26,0,True,"Fluoxetina, Metformina",False,Unimed Pleno,5,True,Estável,Hemodiálise
+835,57,Masculino,Ansiedade,Nenhuma,26,3,False,Furosemida,True,Unimed Nacional,5,False,Estável,Nenhum
+836,76,Masculino,Diabetes Mellitus Tipo 2,Fibromialgia,15,4,False,"Losartana, Omeprazol, Aspirina",True,Unimed Pleno,9,False,Piora,Nenhum
+837,42,Masculino,Diabetes Mellitus Tipo 2,Demência,12,5,False,"Fluoxetina, Sertralina, Losartana",True,Unimed Nacional,1,True,Melhora,Nenhum
+838,38,Feminino,Câncer de Próstata,Nenhuma,15,5,False,Nenhuma,False,Unimed Multi,9,True,Piora,Nenhum
+839,65,Masculino,Pneumonia,Síndrome do Intestino Irritável,11,5,False,"Omeprazol, Paracetamol, Sinvastatina",False,Unimed Total,10,False,Piora,Nenhum
+840,81,Feminino,Ansiedade,Demência,29,1,False,"Paracetamol, Sertralina, Nenhuma",False,Unimed Multi,9,False,Melhora,"Endoscopia, Biopsia"
+841,33,Feminino,Ansiedade,Doença de Alzheimer,7,4,False,"Sertralina, Sinvastatina",False,Unimed Nacional,10,True,Estável,Nenhum
+842,82,Feminino,Infecção do Trato Urinário,Doença Renal Crônica,26,3,True,"Nenhuma, Salbutamol, Furosemida",True,Unimed Total,8,True,Melhora,Nenhum
+843,90,Feminino,Acidente Vascular Cerebral,"Síndrome do Intestino Irritável, Doença Hepática, Fibromialgia",23,0,True,Nenhuma,True,Unimed Nacional,10,False,Sem Alteração Significativa,Nenhum
+844,67,Feminino,Asma,"Doença Hepática, Doença Renal Crônica, Doença de Alzheimer",27,4,True,Nenhuma,False,Unimed Multi,6,True,Piora,"Biopsia, Cirurgia de Apendicectomia"
+845,69,Feminino,Cálculo Renal,"Doença Hepática, HIV/AIDS, Doença Renal Crônica",20,2,True,"Omeprazol, Sertralina",True,Unimed Pleno,8,True,Melhora,Nenhum
+846,58,Feminino,Apneia do Sono,Doença Renal Crônica,3,1,False,"Omeprazol, Insulina, Losartana",False,Unimed Essencial,5,False,Piora,"Hemodiálise, Angioplastia"
+847,61,Feminino,Artrite Reumatoide,"Doença Hepática, Demência",9,4,False,Omeprazol,False,Unimed Essencial,5,False,Piora,Cirurgia de Apendicectomia
+848,35,Feminino,Pneumonia,"Doença de Parkinson, Obesidade",20,0,True,Losartana,False,Unimed Essencial,10,True,Melhora,Colonoscopia
+849,38,Masculino,Pneumonia,Nenhuma,23,4,True,Insulina,False,Unimed Pleno,6,True,Melhora,Cateterismo Cardíaco
+850,20,Masculino,Câncer de Próstata,"Demência, Doença Hepática",28,5,True,"Furosemida, Sertralina",True,Unimed Multi,9,True,Piora,Hemodiálise
+851,40,Feminino,Artrite Reumatoide,Nenhuma,18,4,True,Nenhuma,False,Unimed Multi,5,False,Sem Alteração Significativa,Nenhum
+852,82,Masculino,Fratura de Fêmur,"Doença Renal Crônica, Doença de Alzheimer",2,1,True,Nenhuma,True,Unimed Nacional,5,True,Piora,Nenhum
+853,67,Masculino,Gastroenterite Aguda,Fibromialgia,7,4,True,Nenhuma,False,Unimed Total,3,True,Piora,Nenhum
+854,20,Feminino,Diabetes Mellitus Tipo 2,Doença de Parkinson,28,0,True,"Sinvastatina, Omeprazol, Aspirina",False,Unimed Pleno,0,True,Sem Alteração Significativa,Nenhum
+855,68,Masculino,Pneumonia,Nenhuma,5,5,True,Nenhuma,False,Unimed Total,9,False,Piora,"Fisioterapia Respiratória, Endoscopia"
+856,51,Feminino,Asma,Nenhuma,21,4,False,Nenhuma,False,Unimed Multi,0,True,Melhora,"Fisioterapia Respiratória, Hemodiálise"
+857,65,Masculino,Gastroenterite Aguda,Nenhuma,1,2,True,Nenhuma,False,Unimed Nacional,4,True,Piora,"Endoscopia, Cateterismo Cardíaco"
+858,68,Feminino,Ansiedade,Síndrome do Intestino Irritável,1,3,True,Nenhuma,True,Unimed Nacional,6,False,Estável,Angioplastia
+859,22,Masculino,Insuficiência Cardíaca Congestiva,Fibromialgia,5,2,False,Nenhuma,True,Unimed Multi,9,True,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Endoscopia"
+860,74,Masculino,Insuficiência Cardíaca Congestiva,"Doença de Alzheimer, Obesidade, Fibromialgia",8,0,False,Sertralina,False,Unimed Multi,6,True,Piora,Angioplastia
+861,61,Masculino,Acidente Vascular Cerebral,"Doença Renal Crônica, Doença de Parkinson",15,2,False,"Furosemida, Omeprazol",False,Unimed Total,1,False,Piora,Endoscopia
+862,32,Feminino,Câncer de Mama,Nenhuma,28,2,True,"Aspirina, Furosemida",False,Unimed Essencial,6,True,Piora,Nenhum
+863,63,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,6,3,True,"Metformina, Aspirina",True,Unimed Pleno,5,False,Piora,"Colonoscopia, Endoscopia"
+864,50,Feminino,Ansiedade,Síndrome do Intestino Irritável,30,2,True,Aspirina,False,Unimed Total,9,True,Sem Alteração Significativa,"Cirurgia de Catarata, Endoscopia"
+865,82,Masculino,Pneumonia,Nenhuma,5,3,False,"Metformina, Omeprazol, Aspirina",True,Unimed Pleno,8,True,Piora,Nenhum
+866,70,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"HIV/AIDS, Doença Hepática",19,2,True,Nenhuma,False,Unimed Nacional,8,False,Melhora,Angioplastia
+867,38,Masculino,Acidente Vascular Cerebral,Doença de Alzheimer,29,2,False,Nenhuma,False,Unimed Total,8,False,Melhora,Nenhum
+868,41,Masculino,Câncer de Próstata,Nenhuma,1,2,False,"Furosemida, Paracetamol",False,Unimed Essencial,5,False,Melhora,Nenhum
+869,46,Feminino,Apneia do Sono,HIV/AIDS,23,1,False,"Furosemida, Sinvastatina",False,Unimed Essencial,5,False,Estável,Nenhum
+870,74,Feminino,Câncer de Mama,Demência,6,4,False,"Paracetamol, Metformina, Omeprazol",False,Unimed Total,7,True,Piora,Angioplastia
+871,52,Feminino,Cálculo Renal,Síndrome do Intestino Irritável,21,0,False,Nenhuma,False,Unimed Total,5,False,Sem Alteração Significativa,"Cirurgia de Apendicectomia, Cirurgia de Catarata"
+872,48,Masculino,Pneumonia,Nenhuma,12,1,False,Furosemida,False,Unimed Essencial,7,True,Sem Alteração Significativa,"Endoscopia, Cirurgia de Apendicectomia"
+873,40,Masculino,Insuficiência Cardíaca Congestiva,Doença Hepática,21,0,True,"Sertralina, Sinvastatina",False,Unimed Essencial,5,False,Piora,"Biopsia, Cateterismo Cardíaco"
+874,54,Feminino,Ansiedade,Doença de Parkinson,25,4,False,Salbutamol,True,Unimed Multi,6,False,Estável,"Cirurgia de Catarata, Cirurgia de Apendicectomia"
+875,40,Masculino,Apneia do Sono,Doença de Parkinson,13,2,False,"Sertralina, Losartana",False,Unimed Total,5,False,Piora,"Fisioterapia Respiratória, Cirurgia de Apendicectomia"
+876,78,Masculino,Fratura de Fêmur,Doença de Alzheimer,30,3,False,"Omeprazol, Paracetamol, Fluoxetina",True,Unimed Essencial,1,False,Piora,Endoscopia
+877,34,Feminino,Asma,Doença Hepática,22,0,True,Nenhuma,True,Unimed Total,9,True,Piora,Angioplastia
+878,69,Feminino,Ansiedade,"Obesidade, Doença de Alzheimer",29,2,False,Nenhuma,False,Unimed Essencial,5,False,Estável,"Endoscopia, Biopsia"
+879,41,Masculino,Infecção do Trato Urinário,"Doença de Alzheimer, Obesidade",15,1,False,"Paracetamol, Furosemida, Aspirina",True,Unimed Total,0,False,Estável,Nenhum
+880,69,Feminino,Ansiedade,Fibromialgia,7,0,True,"Insulina, Losartana, Furosemida",False,Unimed Multi,7,False,Sem Alteração Significativa,"Fisioterapia Respiratória, Angioplastia"
+881,78,Masculino,Ansiedade,Nenhuma,13,2,False,"Insulina, Fluoxetina, Salbutamol",False,Unimed Nacional,8,True,Piora,Cateterismo Cardíaco
+882,26,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Obesidade, Doença Renal Crônica, Fibromialgia",4,3,True,"Sertralina, Furosemida, Metformina",True,Unimed Essencial,7,True,Melhora,Nenhum
+883,34,Feminino,Artrite Reumatoide,"Síndrome do Intestino Irritável, Demência",25,0,False,Nenhuma,True,Unimed Total,8,True,Melhora,"Endoscopia, Angioplastia"
+884,38,Masculino,Cálculo Renal,"HIV/AIDS, Obesidade",15,0,False,Nenhuma,False,Unimed Essencial,8,False,Estável,Nenhum
+885,64,Feminino,Hipertensão Essencial,Nenhuma,23,0,True,Nenhuma,False,Unimed Nacional,3,False,Estável,"Hemodiálise, Endoscopia"
+886,55,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,11,2,False,Nenhuma,True,Unimed Nacional,0,False,Sem Alteração Significativa,Nenhum
+887,73,Masculino,Câncer de Mama,Nenhuma,11,3,True,Nenhuma,True,Unimed Total,8,True,Piora,"Cirurgia de Catarata, Colonoscopia"
+888,72,Feminino,Artrite Reumatoide,Síndrome do Intestino Irritável,15,1,False,"Sertralina, Paracetamol, Losartana",True,Unimed Pleno,9,False,Sem Alteração Significativa,"Cirurgia de Catarata, Angioplastia"
+889,44,Feminino,Diabetes Mellitus Tipo 2,Doença de Alzheimer,27,4,True,Nenhuma,True,Unimed Total,0,True,Sem Alteração Significativa,Nenhum
+890,50,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Hepática, Síndrome do Intestino Irritável",21,1,True,"Losartana, Salbutamol",False,Unimed Nacional,4,True,Sem Alteração Significativa,Nenhum
+891,28,Masculino,Hipertensão Essencial,Doença de Parkinson,7,5,False,"Salbutamol, Paracetamol",False,Unimed Multi,3,False,Estável,Nenhum
+892,27,Feminino,Doença Arterial Coronariana,"Doença Hepática, Doença Renal Crônica",27,2,True,"Fluoxetina, Aspirina, Omeprazol",True,Unimed Multi,9,False,Melhora,Cateterismo Cardíaco
+893,70,Masculino,Pneumonia,"Obesidade, Doença de Alzheimer",18,0,True,Nenhuma,True,Unimed Pleno,9,True,Sem Alteração Significativa,Biopsia
+894,80,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,9,4,True,"Fluoxetina, Salbutamol",True,Unimed Multi,1,True,Sem Alteração Significativa,Biopsia
+895,87,Masculino,Hipertensão Essencial,Nenhuma,23,2,True,Nenhuma,False,Unimed Multi,1,True,Estável,"Cirurgia de Apendicectomia, Biopsia"
+896,90,Feminino,Artrite Reumatoide,Nenhuma,16,2,True,Omeprazol,False,Unimed Essencial,7,True,Sem Alteração Significativa,Nenhum
+897,65,Masculino,Apneia do Sono,"HIV/AIDS, Obesidade",17,3,False,"Nenhuma, Salbutamol, Insulina",True,Unimed Total,1,False,Sem Alteração Significativa,"Angioplastia, Colonoscopia"
+898,40,Masculino,Asma,"Fibromialgia, Doença de Alzheimer, Doença Hepática",8,5,False,Sinvastatina,True,Unimed Total,7,False,Estável,Nenhum
+899,26,Feminino,Asma,Demência,13,2,False,"Metformina, Fluoxetina, Salbutamol",False,Unimed Nacional,4,False,Piora,Nenhum
+900,56,Feminino,Pneumonia,Doença Renal Crônica,20,5,True,Nenhuma,True,Unimed Total,0,True,Melhora,"Hemodiálise, Colonoscopia"
+901,38,Feminino,Gastroenterite Aguda,"Doença de Parkinson, Síndrome do Intestino Irritável",14,1,False,Nenhuma,False,Unimed Nacional,5,False,Piora,Nenhum
+902,74,Masculino,Depressão,Nenhuma,3,0,True,"Losartana, Aspirina",False,Unimed Total,2,False,Melhora,Nenhum
+903,39,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Renal Crônica, Síndrome do Intestino Irritável, Fibromialgia",18,4,True,Nenhuma,False,Unimed Multi,1,True,Melhora,Nenhum
+904,63,Masculino,Asma,Nenhuma,10,5,False,Insulina,False,Unimed Nacional,8,False,Estável,Nenhum
+905,56,Feminino,Câncer de Próstata,Obesidade,28,1,True,Paracetamol,False,Unimed Multi,1,True,Sem Alteração Significativa,Colonoscopia
+906,60,Masculino,Pneumonia,Doença de Parkinson,23,0,True,"Aspirina, Insulina, Sinvastatina",False,Unimed Multi,3,False,Melhora,Nenhum
+907,75,Masculino,Câncer de Próstata,Nenhuma,24,5,True,Metformina,False,Unimed Total,3,False,Sem Alteração Significativa,Nenhum
+908,86,Masculino,Acidente Vascular Cerebral,"Doença de Alzheimer, Demência",1,0,False,"Omeprazol, Salbutamol",True,Unimed Total,4,False,Piora,Biopsia
+909,22,Masculino,Acidente Vascular Cerebral,Nenhuma,6,5,True,Omeprazol,False,Unimed Essencial,10,True,Melhora,Nenhum
+910,54,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Fibromialgia,1,3,False,Metformina,True,Unimed Essencial,2,False,Melhora,Nenhum
+911,76,Masculino,Insuficiência Cardíaca Congestiva,Fibromialgia,3,1,True,"Sinvastatina, Salbutamol, Metformina",False,Unimed Total,5,True,Sem Alteração Significativa,"Hemodiálise, Angioplastia"
+912,40,Feminino,Cálculo Renal,HIV/AIDS,4,1,False,"Nenhuma, Salbutamol, Losartana",False,Unimed Multi,10,True,Estável,Nenhum
+913,50,Feminino,Doença Arterial Coronariana,Nenhuma,4,3,False,"Paracetamol, Aspirina",False,Unimed Total,4,False,Sem Alteração Significativa,Angioplastia
+914,52,Masculino,Câncer de Mama,Nenhuma,18,2,True,"Nenhuma, Salbutamol, Omeprazol",False,Unimed Pleno,7,False,Melhora,"Cirurgia de Apendicectomia, Cateterismo Cardíaco"
+915,44,Feminino,Câncer de Mama,Nenhuma,15,0,False,"Sinvastatina, Aspirina",False,Unimed Multi,5,False,Piora,Biopsia
+916,73,Masculino,Pneumonia,"HIV/AIDS, Doença Hepática, Doença Renal Crônica",24,5,True,"Furosemida, Nenhuma",False,Unimed Essencial,2,True,Sem Alteração Significativa,Nenhum
+917,75,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,28,3,True,"Salbutamol, Nenhuma, Paracetamol",False,Unimed Total,4,True,Melhora,Fisioterapia Respiratória
+918,52,Masculino,Diabetes Mellitus Tipo 2,Doença de Alzheimer,15,2,False,Nenhuma,True,Unimed Pleno,10,False,Estável,Endoscopia
+919,76,Feminino,Infecção do Trato Urinário,Nenhuma,20,2,False,Nenhuma,False,Unimed Essencial,3,False,Piora,Nenhum
+920,45,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença Hepática, Obesidade",18,4,True,Paracetamol,True,Unimed Total,8,True,Melhora,Nenhum
+921,66,Feminino,Câncer de Mama,Nenhuma,9,5,False,"Sinvastatina, Nenhuma, Aspirina",True,Unimed Essencial,1,True,Estável,Nenhum
+922,21,Feminino,Doença Arterial Coronariana,"Doença Renal Crônica, Síndrome do Intestino Irritável",16,3,True,Nenhuma,False,Unimed Total,9,True,Sem Alteração Significativa,Nenhum
+923,83,Feminino,Pneumonia,Nenhuma,22,3,False,"Insulina, Furosemida",False,Unimed Essencial,4,False,Estável,"Biopsia, Cateterismo Cardíaco"
+924,90,Feminino,Artrite Reumatoide,Nenhuma,11,1,True,Nenhuma,False,Unimed Total,2,True,Sem Alteração Significativa,Cirurgia de Catarata
+925,26,Masculino,Depressão,Nenhuma,24,0,False,Sertralina,False,Unimed Pleno,6,True,Estável,Nenhum
+926,85,Masculino,Gastroenterite Aguda,Nenhuma,1,4,True,Nenhuma,False,Unimed Pleno,6,False,Sem Alteração Significativa,Nenhum
+927,24,Feminino,Hipertensão Essencial,Obesidade,12,1,False,"Omeprazol, Paracetamol, Aspirina",False,Unimed Pleno,0,False,Melhora,Nenhum
+928,34,Masculino,Cálculo Renal,Doença Hepática,11,5,False,"Sertralina, Omeprazol",False,Unimed Essencial,6,True,Piora,Nenhum
+929,86,Masculino,Pneumonia,"Doença Hepática, Demência",5,2,True,"Fluoxetina, Sertralina, Nenhuma",False,Unimed Total,6,True,Sem Alteração Significativa,Nenhum
+930,77,Feminino,Gastroenterite Aguda,"HIV/AIDS, Fibromialgia",12,0,True,"Aspirina, Paracetamol",False,Unimed Multi,3,True,Estável,Nenhum
+931,52,Masculino,Cálculo Renal,"Doença de Alzheimer, Doença de Parkinson, Doença Hepática",11,1,False,Nenhuma,False,Unimed Essencial,10,True,Sem Alteração Significativa,Fisioterapia Respiratória
+932,61,Feminino,Fratura de Fêmur,"Doença Renal Crônica, Fibromialgia, Doença Hepática",11,5,False,"Metformina, Aspirina",True,Unimed Nacional,8,True,Sem Alteração Significativa,Endoscopia
+933,82,Feminino,Artrite Reumatoide,HIV/AIDS,26,3,True,Nenhuma,True,Unimed Multi,7,False,Estável,Endoscopia
+934,66,Masculino,Hipertensão Essencial,"Doença Renal Crônica, Doença Hepática, Doença de Parkinson",21,5,True,Nenhuma,True,Unimed Essencial,7,True,Melhora,Nenhum
+935,39,Feminino,Câncer de Mama,Síndrome do Intestino Irritável,24,5,False,"Metformina, Aspirina",False,Unimed Essencial,9,True,Melhora,Hemodiálise
+936,64,Feminino,Insuficiência Cardíaca Congestiva,HIV/AIDS,1,3,False,Nenhuma,False,Unimed Multi,3,True,Melhora,Fisioterapia Respiratória
+937,75,Masculino,Gastroenterite Aguda,Doença Renal Crônica,4,2,False,"Sinvastatina, Aspirina, Sertralina",False,Unimed Essencial,10,False,Melhora,Nenhum
+938,44,Feminino,Apneia do Sono,Nenhuma,22,0,True,"Furosemida, Aspirina, Omeprazol",False,Unimed Essencial,4,False,Piora,Nenhum
+939,70,Masculino,Insuficiência Cardíaca Congestiva,Doença de Parkinson,10,2,True,"Aspirina, Sertralina, Omeprazol",False,Unimed Nacional,9,False,Sem Alteração Significativa,Nenhum
+940,48,Feminino,Acidente Vascular Cerebral,Nenhuma,13,5,False,Fluoxetina,True,Unimed Essencial,7,True,Melhora,Nenhum
+941,69,Feminino,Infecção do Trato Urinário,"Obesidade, Doença de Alzheimer",23,2,True,Insulina,False,Unimed Total,4,False,Melhora,"Hemodiálise, Cateterismo Cardíaco"
+942,19,Masculino,Depressão,"HIV/AIDS, Fibromialgia",28,5,True,Nenhuma,True,Unimed Essencial,10,True,Piora,Biopsia
+943,61,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,4,0,False,"Sinvastatina, Furosemida",False,Unimed Essencial,3,False,Piora,Nenhum
+944,82,Feminino,Doença Arterial Coronariana,Nenhuma,28,4,True,Losartana,False,Unimed Total,2,True,Estável,Nenhum
+945,53,Masculino,Insuficiência Cardíaca Congestiva,"Síndrome do Intestino Irritável, Doença de Alzheimer, HIV/AIDS",22,3,True,Losartana,False,Unimed Essencial,9,False,Sem Alteração Significativa,"Colonoscopia, Biopsia"
+946,35,Feminino,Ansiedade,"Doença Hepática, HIV/AIDS",15,0,False,"Aspirina, Fluoxetina",False,Unimed Total,7,False,Sem Alteração Significativa,Nenhum
+947,52,Feminino,Depressão,Nenhuma,13,2,True,"Losartana, Metformina, Insulina",False,Unimed Total,0,False,Melhora,Nenhum
+948,39,Masculino,Ansiedade,Doença Renal Crônica,13,0,False,Furosemida,False,Unimed Multi,8,True,Melhora,Cateterismo Cardíaco
+949,31,Masculino,Depressão,"HIV/AIDS, Demência, Doença de Parkinson",21,0,True,Metformina,False,Unimed Multi,0,True,Estável,Angioplastia
+950,82,Feminino,Ansiedade,Demência,19,0,True,"Sinvastatina, Insulina, Losartana",False,Unimed Pleno,3,True,Piora,Angioplastia
+951,60,Feminino,Artrite Reumatoide,Nenhuma,21,3,True,Sertralina,False,Unimed Essencial,1,True,Sem Alteração Significativa,Nenhum
+952,52,Masculino,Diabetes Mellitus Tipo 2,Doença Hepática,20,0,True,Nenhuma,False,Unimed Pleno,0,False,Sem Alteração Significativa,Nenhum
+953,86,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),"Doença de Alzheimer, Obesidade",13,1,True,Nenhuma,False,Unimed Multi,7,True,Melhora,Cirurgia de Apendicectomia
+954,82,Feminino,Fratura de Fêmur,"Doença Renal Crônica, Fibromialgia",6,0,False,Nenhuma,True,Unimed Multi,7,False,Melhora,Cateterismo Cardíaco
+955,45,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença de Alzheimer,14,1,True,"Omeprazol, Metformina, Sinvastatina",False,Unimed Multi,2,True,Sem Alteração Significativa,Fisioterapia Respiratória
+956,83,Feminino,Infecção do Trato Urinário,Nenhuma,26,5,False,"Nenhuma, Salbutamol",False,Unimed Essencial,2,False,Piora,Nenhum
+957,54,Masculino,Insuficiência Cardíaca Congestiva,Nenhuma,2,4,False,Paracetamol,True,Unimed Pleno,7,False,Sem Alteração Significativa,Angioplastia
+958,74,Masculino,Diabetes Mellitus Tipo 2,Nenhuma,25,1,True,"Nenhuma, Furosemida",False,Unimed Pleno,1,True,Sem Alteração Significativa,Colonoscopia
+959,54,Masculino,Infecção do Trato Urinário,"Demência, Obesidade",5,5,True,"Insulina, Sinvastatina",False,Unimed Nacional,5,False,Estável,Nenhum
+960,72,Masculino,Insuficiência Cardíaca Congestiva,"Doença de Alzheimer, Demência",29,2,False,"Aspirina, Paracetamol, Fluoxetina",False,Unimed Essencial,7,True,Estável,Nenhum
+961,89,Feminino,Insuficiência Cardíaca Congestiva,Nenhuma,15,2,True,"Omeprazol, Sertralina",False,Unimed Nacional,6,True,Sem Alteração Significativa,Cateterismo Cardíaco
+962,30,Masculino,Asma,"Doença de Parkinson, Fibromialgia",21,0,True,"Paracetamol, Nenhuma",False,Unimed Total,8,False,Melhora,Angioplastia
+963,32,Feminino,Apneia do Sono,Nenhuma,28,1,False,Nenhuma,False,Unimed Essencial,6,False,Piora,"Cirurgia de Apendicectomia, Biopsia"
+964,58,Masculino,Depressão,"Doença Hepática, Doença de Parkinson",25,0,True,Nenhuma,True,Unimed Total,1,False,Estável,Nenhum
+965,81,Feminino,Infecção do Trato Urinário,"Doença Hepática, Síndrome do Intestino Irritável, Demência",19,2,False,Nenhuma,False,Unimed Total,1,False,Piora,Nenhum
+966,82,Feminino,Hipertensão Essencial,Nenhuma,1,5,False,"Losartana, Sinvastatina, Furosemida",False,Unimed Pleno,5,False,Estável,Nenhum
+967,74,Feminino,Ansiedade,Nenhuma,2,5,True,"Nenhuma, Fluoxetina",True,Unimed Multi,5,False,Piora,"Biopsia, Fisioterapia Respiratória"
+968,38,Feminino,Artrite Reumatoide,"Doença Hepática, Doença de Parkinson, Obesidade",18,5,True,"Furosemida, Aspirina, Sinvastatina",False,Unimed Nacional,7,True,Piora,Nenhum
+969,59,Feminino,Cálculo Renal,Nenhuma,13,2,False,Paracetamol,False,Unimed Essencial,0,True,Estável,Nenhum
+970,38,Masculino,Câncer de Mama,"Doença de Alzheimer, Demência",5,1,False,Nenhuma,False,Unimed Pleno,1,False,Sem Alteração Significativa,Cateterismo Cardíaco
+971,60,Masculino,Câncer de Mama,"Fibromialgia, Demência, Síndrome do Intestino Irritável",14,2,True,Sinvastatina,False,Unimed Multi,0,False,Melhora,"Cirurgia de Apendicectomia, Angioplastia"
+972,30,Masculino,Fratura de Fêmur,Doença de Parkinson,5,4,False,"Sinvastatina, Insulina, Fluoxetina",False,Unimed Pleno,10,True,Estável,Cateterismo Cardíaco
+973,65,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,7,5,False,Salbutamol,True,Unimed Multi,2,False,Sem Alteração Significativa,Nenhum
+974,80,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,28,4,False,"Metformina, Salbutamol, Fluoxetina",False,Unimed Nacional,10,False,Estável,Cateterismo Cardíaco
+975,23,Masculino,Acidente Vascular Cerebral,Nenhuma,23,4,True,Nenhuma,True,Unimed Essencial,0,False,Melhora,Nenhum
+976,90,Feminino,Câncer de Mama,Fibromialgia,15,3,True,"Losartana, Sinvastatina, Paracetamol",False,Unimed Total,0,True,Piora,Biopsia
+977,41,Feminino,Doença Pulmonar Obstrutiva Crônica (DPOC),Doença Renal Crônica,21,3,False,"Sinvastatina, Furosemida, Insulina",True,Unimed Pleno,10,False,Piora,"Colonoscopia, Fisioterapia Respiratória"
+978,69,Masculino,Pneumonia,"Doença de Alzheimer, Doença de Parkinson, Doença Hepática",23,2,True,"Nenhuma, Salbutamol, Aspirina",False,Unimed Nacional,3,False,Sem Alteração Significativa,Nenhum
+979,38,Masculino,Doença Pulmonar Obstrutiva Crônica (DPOC),Nenhuma,13,0,False,"Metformina, Aspirina",False,Unimed Multi,6,True,Melhora,Hemodiálise
+980,62,Feminino,Gastroenterite Aguda,"Doença Hepática, Demência",16,5,True,Nenhuma,False,Unimed Pleno,4,True,Piora,Endoscopia
+981,29,Masculino,Apneia do Sono,Nenhuma,26,2,True,Fluoxetina,False,Unimed Pleno,10,True,Piora,"Endoscopia, Colonoscopia"
+982,25,Feminino,Câncer de Próstata,Nenhuma,8,1,False,"Salbutamol, Aspirina",False,Unimed Total,6,True,Melhora,"Cirurgia de Catarata, Colonoscopia"
+983,48,Masculino,Doença Arterial Coronariana,Nenhuma,15,0,False,"Omeprazol, Salbutamol, Fluoxetina",True,Unimed Nacional,5,False,Melhora,Angioplastia
+984,86,Masculino,Ansiedade,Nenhuma,17,0,True,Fluoxetina,False,Unimed Total,2,True,Sem Alteração Significativa,Nenhum
+985,75,Feminino,Asma,"Síndrome do Intestino Irritável, HIV/AIDS, Doença Hepática",17,5,False,Losartana,True,Unimed Nacional,10,False,Sem Alteração Significativa,"Cateterismo Cardíaco, Cirurgia de Catarata"
+986,82,Feminino,Pneumonia,"Fibromialgia, Doença de Parkinson, Síndrome do Intestino Irritável",5,4,True,"Aspirina, Insulina, Metformina",False,Unimed Multi,6,False,Piora,Angioplastia
+987,86,Feminino,Acidente Vascular Cerebral,Nenhuma,7,2,False,"Insulina, Metformina",False,Unimed Nacional,8,True,Melhora,Colonoscopia
+988,60,Masculino,Pneumonia,Nenhuma,12,4,False,"Paracetamol, Fluoxetina",False,Unimed Pleno,7,True,Piora,"Cirurgia de Apendicectomia, Cirurgia de Catarata"
+989,44,Feminino,Pneumonia,Doença Hepática,24,1,True,Insulina,False,Unimed Total,2,True,Melhora,Nenhum
+990,60,Masculino,Ansiedade,Nenhuma,26,4,False,"Furosemida, Sinvastatina",False,Unimed Total,7,True,Sem Alteração Significativa,Cirurgia de Catarata
+991,55,Masculino,Depressão,Nenhuma,20,4,True,"Omeprazol, Insulina, Fluoxetina",False,Unimed Total,3,False,Piora,Nenhum
+992,27,Feminino,Fratura de Fêmur,Obesidade,8,2,False,Omeprazol,False,Unimed Essencial,6,True,Sem Alteração Significativa,Nenhum
+993,23,Feminino,Câncer de Mama,Obesidade,26,4,False,Insulina,True,Unimed Total,6,True,Melhora,Fisioterapia Respiratória
+994,63,Masculino,Acidente Vascular Cerebral,"HIV/AIDS, Obesidade",26,0,True,Losartana,False,Unimed Pleno,7,True,Piora,Cateterismo Cardíaco
+995,35,Masculino,Ansiedade,Nenhuma,18,5,True,Nenhuma,True,Unimed Nacional,9,True,Estável,Nenhum
+996,53,Feminino,Câncer de Mama,"Fibromialgia, Demência",7,1,False,"Salbutamol, Insulina",True,Unimed Total,2,False,Piora,"Biopsia, Angioplastia"
+997,84,Masculino,Depressão,"Obesidade, Fibromialgia, Doença de Parkinson",2,3,False,Nenhuma,False,Unimed Pleno,3,False,Estável,"Colonoscopia, Cirurgia de Apendicectomia"
+998,25,Masculino,Asma,"Doença Renal Crônica, Síndrome do Intestino Irritável, Doença Hepática",13,4,True,"Nenhuma, Sinvastatina",True,Unimed Essencial,7,True,Piora,Nenhum
+999,26,Masculino,Asma,Nenhuma,24,1,False,Furosemida,False,Unimed Nacional,0,False,Sem Alteração Significativa,Nenhum
+1000,27,Feminino,Infecção do Trato Urinário,HIV/AIDS,29,5,True,"Paracetamol, Omeprazol, Aspirina",False,Unimed Nacional,1,True,Melhora,Nenhum

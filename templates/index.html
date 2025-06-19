@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏥 Unimed POA - IA Médica</title>
+    <!-- Importar fontes modernas -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Variáveis de cores - Verde Unimed e Tons Neutros */
+        :root {
+            --unimed-green: #00875F; /* Um verde mais sóbrio e característico da Unimed */
+            --light-green: #e6f5f0; /* Um verde bem claro para fundos */
+            --dark-text: #2c3e50;
+            --medium-text: #5f6a7d;
+            --light-text: #f0f2f6;
+            --background-color: #f8f9fa; /* Fundo geral claro */
+            --card-background: #ffffff;
+            --border-color: #e0e6ed;
+            --border-radius: 8px; /* Bordas levemente arredondadas */
+            --shadow-light: 0 2px 8px rgba(0,0,0,0.05); /* Sombra suave */
+        }
+
+        /* Reset e estilos globais */
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark-text);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh; /* Full viewport height */
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px; /* Max width for content */
+            margin: 0 auto;
+            box-shadow: var(--shadow-light);
+            border-radius: var(--border-radius);
+            background-color: var(--background-color);
+            overflow: hidden; /* Ensures rounded corners */
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background-color: var(--light-green);
+            padding: 1.5rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            border-right: 1px solid var(--border-color);
+        }
+
+        .sidebar-section {
+            background-color: var(--card-background);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-color);
+        }
+
+        .sidebar h3 {
+            color: var(--dark-text);
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .metric-container {
+            background-color: var(--unimed-green);
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            color: white;
+            text-align: center;
+            margin-bottom: 0.8rem;
+            box-shadow: var(--shadow-light);
+        }
+
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .metric-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+            margin: 0.2rem 0 0 0;
+        }
+
+        .example-button {
+            background-color: var(--light-green);
+            padding: 0.6rem 1rem;
+            border-radius: 6px;
+            margin-bottom: 0.4rem;
+            color: var(--dark-text);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 1px solid #c9e0d8;
+            display: block;
+            width: 100%;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        .example-button:hover {
+            background-color: #d1eddf;
+            box-shadow: 0 2px 8px rgba(0,135,95,0.1);
+        }
+
+        /* Main content area */
+        .main-content {
+            flex-grow: 1;
+            padding: 2rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-header {
+            background-color: var(--unimed-green);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+        }
+
+        .main-header h1 {
+            color: var(--light-text);
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .main-header p {
+            color: rgba(255,255,255,0.85);
+            font-size: 1rem;
+            margin: 0.5rem 0 0 0;
+            font-weight: 400;
+        }
+
+        .stats-container {
+            display: flex;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Center items for smaller screens */
+        }
+
+        .stat-card {
+            background: var(--card-background);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+            flex: 1;
+            min-width: 200px; /* Slightly larger min-width for better spacing */
+            max-width: 24%; /* Distribute space evenly among 4 cards */
+            text-align: center;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid var(--border-color);
+            box-sizing: border-box; /* Include padding/border in width */
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--unimed-green);
+            margin: 0;
+        }
+
+        .stat-label {
+            color: var(--medium-text);
+            font-size: 0.9rem;
+            margin: 0.25rem 0 0 0;
+            font-weight: 500;
+        }
+
+        /* Chat interface */
+        .chat-area {
+            flex-grow: 1;
+            background-color: var(--card-background);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto; /* Scroll for chat messages */
+            min-height: 300px; /* Minimum height for chat area */
+        }
+
+        .chat-messages {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding-right: 10px; /* Space for scrollbar */
+        }
+
+        .chat-message {
+            background: var(--background-color);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-color);
+        }
+
+        .chat-message.user {
+            background-color: #eaf7f2; /* Light green for user messages */
+            border-color: #c9e0d8;
+            align-self: flex-end; /* Align user messages to the right */
+            text-align: right;
+        }
+
+        .chat-message.assistant {
+            background-color: var(--card-background);
+            border-color: var(--border-color);
+            align-self: flex-start; /* Align assistant messages to the left */
+            text-align: left;
+        }
+
+        .chat-message p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            background: var(--card-background);
+            box-shadow: var(--shadow-light);
+            transition: all 0.2s ease;
+        }
+
+        .chat-input-container:focus-within {
+            border-color: var(--unimed-green);
+            box-shadow: 0 0 0 2px rgba(0,135,95,0.2);
+        }
+
+        .chat-input-container input {
+            flex-grow: 1;
+            border: none;
+            padding: 0.8rem 1rem;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .chat-input-container button {
+            background-color: var(--unimed-green);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0,135,95,0.2);
+            cursor: pointer;
+            white-space: nowrap; /* Prevent button text from wrapping */
+        }
+
+        .chat-input-container button:hover {
+            background-color: #006b4d;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0,135,95,0.3);
+        }
+
+        .loading-indicator {
+            text-align: center;
+            padding: 1rem;
+            color: var(--unimed-green);
+            font-weight: 500;
+        }
+
+        /* General Styling */
+        h2 {
+            color: var(--dark-text);
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        hr {
+            border-top: 1px solid var(--border-color);
+            margin: 1.5rem 0;
+        }
+
+        .footer-text {
+            color: var(--medium-text);
+            font-size: 0.85rem;
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .clear-chat-button {
+            background-color: #e74c3c; /* Red for clear button */
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.6rem 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 5px rgba(231,76,60,0.2);
+            cursor: pointer;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .clear-chat-button:hover {
+            background-color: #c0392b;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(231,76,60,0.3);
+        }
+
+        /* Responsiveness */
+        @media (max-width: 992px) {
+            .container {
+                flex-direction: column;
+                margin: 1rem; /* Adjust margin for smaller screens */
+            }
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .main-content {
+                padding: 1rem; /* Adjust padding */
+            }
+            .stat-card {
+                max-width: 48%; /* 2 cards per row on tablets */
+                margin-bottom: 1rem; /* Add margin for vertical spacing */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-header h1 {
+                font-size: 2rem;
+            }
+            .stats-container {
+                flex-direction: column;
+            }
+            .stat-card {
+                min-width: 100%;
+                max-width: 100%; /* 1 card per row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>📊 Informações do Sistema</h3>
+                <div class="metric-container">
+                    <div class="metric-value" id="loaded-documents">0</div>
+                    <div class="metric-label">Documentos Carregados</div>
+                </div>
+                <div class="metric-container">
+                    <div class="metric-value" id="data-fields">0</div>
+                    <div class="metric-label">Campos de Dados</div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>💡 Exemplos de Perguntas</h3>
+                <button class="example-button" data-question="Qual é a taxa de readmissão por faixa etária?">Qual é a taxa de readmissão por faixa etária?</button>
+                <button class="example-button" data-question="Quais são os principais diagnósticos?">Quais são os principais diagnósticos?</button>
+                <button class="example-button" data-question="Pacientes com maior risco de readmissão">Pacientes com maior risco de readmissão</button>
+                <button class="example-button" data-question="Análise de comorbidades mais comuns">Análise de comorbidades mais comuns</button>
+                <button class="example-button" data-question="Efetividade do homecare na redução de readmissões">Efetividade do homecare na redução de readmissões</button>
+            </div>
+
+            <button class="clear-chat-button" id="clearChatButton">🗑️ Limpar Conversa</button>
+        </aside>
+
+        <main class="main-content">
+            <div class="main-header">
+                <h1>🏥 Unimed POA - IA Médica</h1>
+                <p>Sistema Inteligente de Análise de Dados de Pacientes</p>
+            </div>
+
+            <h2>📊 Estatísticas Principais</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-patients">0</div>
+                    <div class="stat-label">👥 Total de Pacientes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="readmission-rate">0.0%</div>
+                    <div class="stat-label">🔄 Taxa de Readmissão</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="avg-stay">0.0</div>
+                    <div class="stat-label">📅 Média de Internação (dias)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="homecare-rate">0.0%</div>
+                    <div class="stat-label">🏠 Taxa de Homecare</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h2>💬 Faça sua pergunta sobre os dados dos pacientes</h2>
+            <div class="chat-area">
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Chat messages will be appended here by JavaScript -->
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" placeholder="Digite sua pergunta aqui..." aria-label="Digite sua pergunta">
+                    <button id="sendMessageButton">Enviar</button>
+                </div>
+            </div>
+
+            <p class="footer-text">🏥 Sistema desenvolvido para Unimed POA - Análise Inteligente de Dados de Pacientes</p>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const chatMessages = document.getElementById('chatMessages');
+            const chatInput = document.getElementById('chatInput');
+            const sendMessageButton = document.getElementById('sendMessageButton');
+            const clearChatButton = document.getElementById('clearChatButton');
+            const exampleButtons = document.querySelectorAll('.example-button');
+
+            // Function to add a message to the chat display
+            function addMessage(role, content) {
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('chat-message', role);
+                messageDiv.innerHTML = `<p>${content}</p>`;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to bottom
+            }
+
+            // Fetch and display initial statistics
+            async function fetchStats() {
+                try {
+                    const response = await fetch('/stats');
+                    const stats = await response.json();
+                    document.getElementById('total-patients').textContent = stats.total_patients;
+                    document.getElementById('readmission-rate').textContent = stats.readmission_rate;
+                    document.getElementById('avg-stay').textContent = stats.avg_stay;
+                    document.getElementById('homecare-rate').textContent = stats.homecare_rate;
+                    document.getElementById('loaded-documents').textContent = stats.loaded_documents;
+                    document.getElementById('data-fields').textContent = stats.data_fields;
+                } catch (error) {
+                    console.error('Error fetching statistics:', error);
+                    // Optionally display an error message in the UI
+                }
+            }
+
+            // Handle sending messages
+            async function sendMessage() {
+                const userMessage = chatInput.value.trim();
+                if (userMessage === '') return;
+
+                addMessage('user', userMessage);
+                chatInput.value = ''; // Clear input
+
+                const loadingIndicator = document.createElement('div');
+                loadingIndicator.classList.add('loading-indicator');
+                loadingIndicator.textContent = '🤔 Analisando dados...';
+                chatMessages.appendChild(loadingIndicator);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                try {
+                    const response = await fetch('/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ message: userMessage }),
+                    });
+
+                    const data = await response.json();
+                    chatMessages.removeChild(loadingIndicator); // Remove loading indicator
+
+                    if (response.ok) {
+                        addMessage('assistant', data.response);
+                    } else {
+                        addMessage('assistant', `Erro: ${data.response || 'Ocorreu um erro desconhecido.'}`);
+                    }
+                } catch (error) {
+                    chatMessages.removeChild(loadingIndicator); // Remove loading indicator
+                    addMessage('assistant', `❌ Erro ao conectar com o servidor: ${error.message}`);
+                    console.error('Fetch error:', error);
+                }
+            }
+
+            // Event listeners
+            sendMessageButton.addEventListener('click', sendMessage);
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            clearChatButton.addEventListener('click', () => {
+                chatMessages.innerHTML = ''; // Clear all messages
+            });
+
+            exampleButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    chatInput.value = button.dataset.question;
+                    sendMessage(); // Automatically send the example question
+                });
+            });
+
+            // Initial fetch of statistics when the page loads
+            fetchStats();
+        });
+    </script>
+</body>
+</html>
